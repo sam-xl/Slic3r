@@ -2,11 +2,14 @@
 #include "BoundingBox.hpp"
 #include "ClipperUtils.hpp"
 #include "Geometry.hpp"
+#include <boost/bind/bind.hpp>
 #include <algorithm>
 #include <vector>
 #include "SVG.hpp"
 
 namespace Slic3r {
+
+using boost::placeholders::_1;
 
 PrintObject::PrintObject(Print* print, ModelObject* model_object, const BoundingBoxf3 &modobj_bbox)
 :   typed_slices(false),
