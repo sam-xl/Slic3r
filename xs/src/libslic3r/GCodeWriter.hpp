@@ -45,6 +45,7 @@ public:
     bool will_move_z(double z) const;
     std::string extrude_to_xy(const Pointf &point, double dE, const std::string &comment = std::string());
     std::string extrude_to_xyz(const Pointf3 &point, double dE, const std::string &comment = std::string());
+    std::string extrude_to_xyz_theta(const Pointf3 &point, double dE, const std::string &comment = std::string());
     std::string retract();
     std::string retract_for_toolchange();
     std::string unretract();
@@ -58,6 +59,7 @@ private:
     unsigned int _last_fan_speed;
     double _lifted;
     Pointf3 _pos;
+    float _theta;
     
     std::string _travel_to_z(double z, const std::string &comment);
     std::string _retract(double length, double restart_extra, const std::string &comment, bool long_retract = false);

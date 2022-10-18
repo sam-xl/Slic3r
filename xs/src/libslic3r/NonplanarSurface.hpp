@@ -8,6 +8,7 @@
 #include "ExPolygon.hpp"
 #include "Geometry.hpp"
 #include "ClipperUtils.hpp"
+#include "cmath"
 
 namespace Slic3r {
 
@@ -24,7 +25,9 @@ typedef struct {
 
 class NonplanarSurface;
 
+
 typedef std::vector<NonplanarSurface> NonplanarSurfaces;
+typedef std::vector<NonplanarSurface> Theta;
 
 class NonplanarSurface
 {
@@ -39,6 +42,11 @@ class NonplanarSurface
     void translate(float x, float y, float z);
     void scale(float factor);
     void scale(float versor[3]);
+    void calculate_normal();
+    void dot_product();
+    void mag();
+    void calculate_theta();
+    Theta theta();
     void rotate_z(float angle);
     void debug_output();
     NonplanarSurfaces group_surfaces();

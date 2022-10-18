@@ -22,6 +22,13 @@ class NonplanarFacet
     public:
     facet_vertex vertex[3];
     facet_vertex normal;
+    float N[3];
+    float a[3];
+    float b[3];
+    float dot_product;
+    float maga;
+    float magb;
+    float theta;
     int neighbor[3];
     facet_stats stats;
     bool marked = false;
@@ -29,6 +36,7 @@ class NonplanarFacet
     NonplanarFacet() {};
     ~NonplanarFacet() {};
     void calculate_stats();
+    void calculate_theta(float t);
     void translate(float x, float y, float z);
     void scale(float versor[3]);
     float calculate_surface_area();

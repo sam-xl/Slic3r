@@ -20,6 +20,15 @@ NonplanarFacet::calculate_stats() {
         this->stats.max.y = std::max(this->stats.max.y, this->vertex[j].y);
         this->stats.max.z = std::max(this->stats.max.z, this->vertex[j].z);
     }
+
+   
+}
+
+void NonplanarFacet::calculate_theta(float t){
+// this is bs, but please put the angle between normal and axis here 
+
+t = (this->vertex[0].x +this->vertex[0].y+ this->vertex[0].z) / 3;
+
 }
 
 void

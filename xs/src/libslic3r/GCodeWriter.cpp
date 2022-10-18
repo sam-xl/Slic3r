@@ -10,6 +10,7 @@
 #define COMMENT(comment) if (this->config.gcode_comments && !comment.empty()) gcode << " ; " << comment;
 #define PRECISION(val, precision) std::fixed << std::setprecision(precision) << val
 #define XYZF_NUM(val) PRECISION(val, 3)
+#define THETA(val) PRECISION(val, 3)
 #define E_NUM(val) PRECISION(val, 5)
 
 namespace Slic3r {
@@ -427,7 +428,7 @@ GCodeWriter::extrude_to_xy(const Pointf &point, double dE, const std::string &co
     gcode << "\n";
     return gcode.str();
 }
-
+// add new variable to extrude_xyz called b and c, angle b is the x-axis angle and c for y axis. 
 std::string
 GCodeWriter::extrude_to_xyz(const Pointf3 &point, double dE, const std::string &comment)
 {
@@ -444,7 +445,24 @@ GCodeWriter::extrude_to_xyz(const Pointf3 &point, double dE, const std::string &
     gcode << "\n";
     return gcode.str();
 }
-
+// new gcode command -robotic arm
+std::string
+GCodeWriter::extrude_to_xyz_theta(const Pointf3 &point, double dE, const std::string &comment)
+{
+    this->_pos = point;
+    this->_lifted = 0;
+    this->_extruder->extrude(dE);
+   
+    
+    std::ostringstream gcode;
+    gcode << "G1 X" << XYZF_NUM(point.x)
+          <<   " Y" << XYZF_NUM(point.y)
+          <<   " Z" << XYZF_NUM(point.z)
+          <<    " " << this->_extrusion_axis << E_NUM(this->_extruder->E);
+    COMMENT(comment);
+    gcode << "\n";
+    return gcode.str();
+}
 std::string
 GCodeWriter::retract()
 {
