@@ -27,7 +27,7 @@ class NonplanarSurface;
 
 
 typedef std::vector<NonplanarSurface> NonplanarSurfaces;
-typedef std::vector<NonplanarSurface> Theta;
+
 
 class NonplanarSurface
 {
@@ -46,7 +46,7 @@ class NonplanarSurface
     void dot_product();
     void mag();
     void calculate_theta();
-    Theta theta();
+    float theta;
     void rotate_z(float angle);
     void debug_output();
     NonplanarSurfaces group_surfaces();

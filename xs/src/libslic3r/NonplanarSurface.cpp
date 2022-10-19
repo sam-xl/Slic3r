@@ -1,6 +1,7 @@
 #include "NonplanarSurface.hpp"
 #include <unordered_set>
 
+
 namespace Slic3r {
 
 NonplanarSurface::NonplanarSurface(std::map<int, NonplanarFacet> &_mesh)
@@ -102,6 +103,8 @@ NonplanarSurface::rotate_z(float angle) {
   this->calculate_stats();
 }
 
+
+   
 void
 NonplanarSurface::debug_output()
 {
@@ -109,6 +112,7 @@ NonplanarSurface::debug_output()
                            " max:X:" << this->stats.max.x << " Y:" << this->stats.max.y << " Z:" << this->stats.max.z << ")" <<
                            "Height " << this->stats.max.z - this->stats.min.z << std::endl;
     for(auto& facet : this->mesh) {
+        // Every facet has a normal which represents the orientation of the facet, z-comp. can be used to calc. facet angle
         std::cout << "triangle: (" << facet.first << ")(" << facet.second.marked << ") ";
         std::cout << " (" << (180*std::acos(facet.second.normal.z))/3.14159265 << "°)";
 
@@ -132,6 +136,8 @@ NonplanarSurface::debug_output()
         std::cout << " Y:"<< facet.second.normal.y;
         std::cout << " Z:"<< facet.second.normal.z;
 
+
+
         //TODO check if neighbors exist
         // stl_neighbors* neighbors = mesh.stl.neighbors_start + facet.first;
         std::cout << " | Neighbors:";
@@ -141,6 +147,63 @@ NonplanarSurface::debug_output()
         std::cout << std::endl;
     }
 }
+// calculate the normal of each facet (in case the normal function does not work, this is definetly the correct formula)
+void 
+NonplanarSurface::calculate_normal(){
+
+    for(auto& facet : this->mesh){
+        //facet.second.calculate_theta(N);
+        facet.second.N[0] = (facet.second.vertex[0].y*facet.second.vertex[1].z) - (facet.second.vertex[0].z*facet.second.vertex[1].y);
+        facet.second.N[1] = (facet.second.vertex[0].z*facet.second.vertex[1].x) - (facet.second.vertex[0].x*facet.second.vertex[1].z);
+        facet.second.N[2] = (facet.second.vertex[0].x*facet.second.vertex[1].y) - (facet.second.vertex[0].y*facet.second.vertex[1].x);
+    }
+
+}
+void
+NonplanarSurface::dot_product(){
+    for(auto& facet : this->mesh){
+        facet.second.a[0] = facet.second.N[0];
+        facet.second.a[1] = facet.second.N[1];
+        facet.second.a[2] = facet.second.N[2];
+        facet.second.b[0] = 0;
+        facet.second.b[1] = 0;
+        facet.second.b[2] = 1;
+        facet.second.dot_product = facet.second.a[0]*facet.second.b[0] +facet.second.a[1]*facet.second.b[1]+facet.second.a[2]*facet.second.b[2];
+    }
+}
+
+void
+NonplanarSurface::mag(){
+    for(auto& facet : this->mesh){
+        facet.second.a[0] = facet.second.N[0];
+        facet.second.a[1] = facet.second.N[1];
+        facet.second.a[2] = facet.second.N[2];
+        facet.second.b[0] = 0;
+        facet.second.b[1] = 0;
+        facet.second.b[2] = 1;
+        facet.second.maga = std::sqrt(facet.second.a[0]*facet.second.a[0]+facet.second.a[1]*facet.second.a[1]+facet.second.a[2]+facet.second.a[2]);
+        facet.second.magb = std::sqrt(facet.second.b[0]*facet.second.b[0]+facet.second.b[1]*facet.second.b[1]+facet.second.b[2]+facet.second.b[2]);
+}
+}
+
+//here lies my plans to make a theta vector :/
+///Theta
+//NonplanarSurface::theta(){
+   // for(auto& facet : this->mesh){
+   //     theta.push_back(facet.second.theta);
+  //  }
+//}
+
+void
+NonplanarSurface::calculate_theta(){
+    // the first facet gets a theta value (for now, can be looped over all facets)
+    //if surface is flat (test airfoil) use the first facet's theta as surface theta
+    //for more complicated surfaces, you need to do something with multiple thetas (tbc)
+ auto facet = this->mesh.begin();
+    this->theta = std::acos((facet->second.dot_product/(facet->second.maga*facet->second.magb))); 
+    std::cout << this->theta;
+}
+
 
 NonplanarSurfaces
 NonplanarSurface::group_surfaces()
@@ -247,7 +310,4 @@ NonplanarSurface::horizontal_projection() const
     // the offset factor was tuned using groovemount.stl
     return union_ex(offset(pp, 0.01 / SCALING_FACTOR), true);
 }
-
-
-
 }
