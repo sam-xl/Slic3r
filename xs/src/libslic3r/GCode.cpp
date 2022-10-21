@@ -830,10 +830,12 @@ Pointf3
 GCode::point3_to_gcode(const Point &point)
 {
     Pointf extruder_offset = EXTRUDER_CONFIG(extruder_offset);
+    
     return Pointf3(
         unscale(point.x) + this->origin.x - extruder_offset.x,
         unscale(point.y) + this->origin.y - extruder_offset.y,
-        (point.z == -1.0f ? this->layer->print_z : unscale(point.z)) //TODO Origin?
+        (point.z == -1.0f ? this->layer->print_z : unscale(point.z)) 
+         //TODO Origin?
     );
     
 }

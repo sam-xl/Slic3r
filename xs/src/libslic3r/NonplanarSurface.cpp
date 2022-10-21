@@ -1,5 +1,7 @@
 #include "NonplanarSurface.hpp"
 #include <unordered_set>
+#include <iostream>
+#include <fstream>
 
 
 namespace Slic3r {
@@ -152,10 +154,17 @@ void
 NonplanarSurface::calculate_normal(){
 
     for(auto& facet : this->mesh){
-        //facet.second.calculate_theta(N);
+        
         facet.second.N[0] = (facet.second.vertex[0].y*facet.second.vertex[1].z) - (facet.second.vertex[0].z*facet.second.vertex[1].y);
         facet.second.N[1] = (facet.second.vertex[0].z*facet.second.vertex[1].x) - (facet.second.vertex[0].x*facet.second.vertex[1].z);
         facet.second.N[2] = (facet.second.vertex[0].x*facet.second.vertex[1].y) - (facet.second.vertex[0].y*facet.second.vertex[1].x);
+        std::ofstream myfile;
+        std::stringstream stream;
+        
+        myfile.open ("/home/shantiverschoor/workspaces/Slic3r/normal.txt", std::ios_base::app);
+        stream <<std::fixed <<std::setprecision(2)<<"x "<<facet.second.N[0]<<"y"<< facet.second.N[1]<<"z " <<facet.second.N[2]<<"\n";
+        myfile <<stream.str();
+        myfile.close();
     }
 
 }
@@ -169,6 +178,15 @@ NonplanarSurface::dot_product(){
         facet.second.b[1] = 0;
         facet.second.b[2] = 1;
         facet.second.dot_product = facet.second.a[0]*facet.second.b[0] +facet.second.a[1]*facet.second.b[1]+facet.second.a[2]*facet.second.b[2];
+        std::ofstream myfile;
+        std::stringstream stream;
+        myfile.open ("/home/shantiverschoor/workspaces/Slic3r/dot.txt", std::ios_base::app);
+        stream <<std::fixed <<std::setprecision(2)<< facet.second.dot_product<<"\n";
+        myfile <<stream.str();
+        myfile.close();
+  
+    
+}
     }
 }
 
@@ -183,6 +201,13 @@ NonplanarSurface::mag(){
         facet.second.b[2] = 1;
         facet.second.maga = std::sqrt(facet.second.a[0]*facet.second.a[0]+facet.second.a[1]*facet.second.a[1]+facet.second.a[2]+facet.second.a[2]);
         facet.second.magb = std::sqrt(facet.second.b[0]*facet.second.b[0]+facet.second.b[1]*facet.second.b[1]+facet.second.b[2]+facet.second.b[2]);
+        std::ofstream myfile;
+        std::stringstream stream;
+        myfile.open ("/home/shantiverschoor/workspaces/Slic3r/mag.txt", std::ios_base::app);
+        stream <<std::fixed <<std::setprecision(2)<<"a="<<facet.second.maga <<" b="<<facet.second.magb<<"\n";
+        myfile <<stream.str();
+        myfile.close();
+    
 }
 }
 
@@ -200,8 +225,31 @@ NonplanarSurface::calculate_theta(){
     //if surface is flat (test airfoil) use the first facet's theta as surface theta
     //for more complicated surfaces, you need to do something with multiple thetas (tbc)
  auto facet = this->mesh.begin();
+    /// update: to make this return theta it needs to be set in the function calculate_theta and called in PrintObject. Otherwise the function does not know how to get correct normal, dot etc.
+    facet->second.N[0] = (facet->second.vertex[0].y*facet->second.vertex[1].z) - (facet->second.vertex[0].z*facet->second.vertex[1].y);
+    facet->second.N[1] = (facet->second.vertex[0].z*facet->second.vertex[1].x) - (facet->second.vertex[0].x*facet->second.vertex[1].z);
+    facet->second.N[2] = (facet->second.vertex[0].x*facet->second.vertex[1].y) - (facet->second.vertex[0].y*facet->second.vertex[1].x);
+    facet->second.a[0] = facet->second.N[0];
+    facet->second.a[1] = facet->second.N[1];
+    facet->second.a[2] = facet->second.N[2];
+    facet->second.b[0] = 0;
+    facet->second.b[1] = 0;
+    facet->second.b[2] = 1;
+    
+     
+    facet->second.dot_product = facet->second.a[0]*facet->second.b[0] +facet->second.a[1]*facet->second.b[1]+facet->second.a[2]*facet->second.b[2];
+    facet->second.maga = std::sqrt(facet->second.a[0]*facet->second.a[0]+facet->second.a[1]*facet->second.a[1]+facet->second.a[2]+facet->second.a[2]);
+    facet->second.magb = std::sqrt(facet->second.b[0]*facet->second.b[0]+facet->second.b[1]*facet->second.b[1]+facet->second.b[2]+facet->second.b[2]);
+
     this->theta = std::acos((facet->second.dot_product/(facet->second.maga*facet->second.magb))); 
-    std::cout << this->theta;
+    
+    std::ofstream myfile;
+    std::stringstream stream;
+    myfile.open ("/home/shantiverschoor/workspaces/Slic3r/thetas.txt", std::ios_base::app);
+    stream <<std::fixed <<std::setprecision(2)<< "dot/mag= "<<facet->second.dot_product/(facet->second.maga*facet->second.magb)<<" a*b = "<<facet->second.maga*facet->second.magb<<"theta=  "<<this->theta<<"\n";
+    myfile <<stream.str();
+    myfile.close();
+    
 }
 
 
@@ -310,4 +358,4 @@ NonplanarSurface::horizontal_projection() const
     // the offset factor was tuned using groovemount.stl
     return union_ex(offset(pp, 0.01 / SCALING_FACTOR), true);
 }
-}
+

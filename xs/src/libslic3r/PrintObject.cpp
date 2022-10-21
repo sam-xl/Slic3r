@@ -1214,6 +1214,16 @@ PrintObject::find_nonplanar_surfaces()
             //group surfaces and attach all nonplanar surfaces to the PrintObject
             this->nonplanar_surfaces = nf.group_surfaces();
 
+            // shanti adding thetas
+            for (auto& surface : this->nonplanar_surfaces)
+            {
+                surface.calculate_normal();
+                surface.calculate_theta();
+                surface.mag();
+                surface.dot_product();
+
+            }
+
             //check if surfaces maintain maximum printing height, if not, erase it
             for (NonplanarSurfaces::iterator it = this->nonplanar_surfaces.begin(); it!=this->nonplanar_surfaces.end();) {
                 if((*it).check_max_printing_height(this->config.nonplanar_layers_height.value)) {

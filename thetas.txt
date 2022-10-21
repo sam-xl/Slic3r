@@ -1,0 +1,2 @@
+dot/mag= -nan a*b = 0.00theta=  -nan
+dot/mag= 0.02 a*b = 1060.73theta=  1.55
