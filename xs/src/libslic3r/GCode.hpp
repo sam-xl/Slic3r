@@ -11,11 +11,13 @@
 #include "Print.hpp"
 #include "PrintConfig.hpp"
 #include "ConditionalGCode.hpp"
+#include "NonplanarSurface.hpp"
 #include <string>
 
 namespace Slic3r {
 
 class GCode;
+class NonplanarSurface;
 
 class AvoidCrossingPerimeters {
     public:
@@ -72,6 +74,7 @@ class GCode {
     Pointf origin;
     FullPrintConfig config;
     GCodeWriter writer;
+    
     PlaceholderParser* placeholder_parser;
     OozePrevention ooze_prevention;
     Wipe wipe;
@@ -114,6 +117,8 @@ class GCode {
     std::string set_extruder(unsigned int extruder_id);
     Pointf point_to_gcode(const Point &point);
     Pointf3 point3_to_gcode(const Point &point);
+    
+    
     
     private:
     Point _last_pos;

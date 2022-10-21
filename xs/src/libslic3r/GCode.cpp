@@ -595,7 +595,7 @@ GCode::_extrude(ExtrusionPath path, std::string description, double speed)
             const double line_length = line->length() * SCALING_FACTOR;
             const double multiplicator = std::cos(line->angle());
             path_length += line_length;
-            gcode += this->writer.extrude_to_xyz(
+            gcode += this->writer.extrude_to_xyz_theta(
                 this->point3_to_gcode(line->b),
                 e_per_mm * line_length * multiplicator,
                 comment
@@ -837,5 +837,6 @@ GCode::point3_to_gcode(const Point &point)
     );
     
 }
+
 
 }
