@@ -22,6 +22,8 @@ class NonplanarFacet
     public:
     facet_vertex vertex[3];
     facet_vertex normal;
+    float U[3];
+    float V[3];
     float N[3];
     float a[3];
     float b[3];

@@ -1,2 +1,9 @@
 dot/mag= -nan a*b = 0.00theta=  -nan
 dot/mag= 0.02 a*b = 1060.73theta=  1.55
+dot/mag= 0.024 a*b = 1060.731theta=  1.547
+dot/mag= 0.024 a*b = 1060.731theta=  1.547
+dot/mag= 0.024 a*b = 1060.731theta=  1.547
+dot/mag= 0.033 a*b = 750.433theta=  1.537
+dot/mag= 0.033 a*b = 750.433theta=  280.835
+dot/mag= 0.981 a*b = 50.990theta=  225.605
+dot/mag= 0.981 a*b = 50.990theta=  11.310

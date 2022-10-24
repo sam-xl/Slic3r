@@ -154,15 +154,27 @@ void
 NonplanarSurface::calculate_normal(){
 
     for(auto& facet : this->mesh){
-        
-        facet.second.N[0] = (facet.second.vertex[0].y*facet.second.vertex[1].z) - (facet.second.vertex[0].z*facet.second.vertex[1].y);
-        facet.second.N[1] = (facet.second.vertex[0].z*facet.second.vertex[1].x) - (facet.second.vertex[0].x*facet.second.vertex[1].z);
-        facet.second.N[2] = (facet.second.vertex[0].x*facet.second.vertex[1].y) - (facet.second.vertex[0].y*facet.second.vertex[1].x);
+        facet.second.U[0] = (facet.second.vertex[1].x - facet.second.vertex[0].x);
+        facet.second.U[1] = (facet.second.vertex[1].y - facet.second.vertex[0].y);
+        facet.second.U[2] = (facet.second.vertex[1].z - facet.second.vertex[0].z);
+        facet.second.V[0] = (facet.second.vertex[2].x - facet.second.vertex[0].x);
+        facet.second.V[1] = (facet.second.vertex[2].y - facet.second.vertex[0].y);
+        facet.second.V[2] = (facet.second.vertex[2].z - facet.second.vertex[0].z);
+
+        ///facet.second.N[0] = (facet.second.vertex[0].y*facet.second.vertex[1].z) - (facet.second.vertex[0].z*facet.second.vertex[1].y);
+        ///facet.second.N[1] = (facet.second.vertex[0].z*facet.second.vertex[1].x) - (facet.second.vertex[0].x*facet.second.vertex[1].z);
+        ///facet.second.N[2] = (facet.second.vertex[0].x*facet.second.vertex[1].y) - (facet.second.vertex[0].y*facet.second.vertex[1].x);
+        facet.second.N[0] = (facet.second.U[1]*facet.second.V[2]) - (facet.second.U[2]*facet.second.V[1]);
+        facet.second.N[1] = (facet.second.U[2]*facet.second.V[0]) - (facet.second.U[0]*facet.second.V[2]);
+        facet.second.N[2] = (facet.second.U[0]*facet.second.V[1]) - (facet.second.U[1]*facet.second.V[0]);
         std::ofstream myfile;
         std::stringstream stream;
         
         myfile.open ("/home/shantiverschoor/workspaces/Slic3r/normal.txt", std::ios_base::app);
-        stream <<std::fixed <<std::setprecision(2)<<"x "<<facet.second.N[0]<<"y"<< facet.second.N[1]<<"z " <<facet.second.N[2]<<"\n";
+        stream <<std::fixed <<std::setprecision(3)<<"x "<<facet.second.N[0]<<"y "<< facet.second.N[1]<<"z " <<facet.second.N[2]<<"\n";
+        stream <<std::fixed <<std::setprecision(3)<<"vertex 0: "<<facet.second.vertex[0].x<<" vertex 1: "<<facet.second.vertex[1].x<<"vertex 2: "<<facet.second.vertex[2].x<<"\n";
+        stream <<std::fixed <<std::setprecision(3)<<"vertex 0: "<<facet.second.vertex[0].y<<" vertex 1: "<<facet.second.vertex[1].y<<"vertex 2: "<<facet.second.vertex[2].y<<"\n";
+        stream <<std::fixed <<std::setprecision(3)<<"vertex 0: "<<facet.second.vertex[0].z<<" vertex 1: "<<facet.second.vertex[1].z<<"vertex 2: "<<facet.second.vertex[2].z<<"\n";
         myfile <<stream.str();
         myfile.close();
     }
@@ -181,7 +193,7 @@ NonplanarSurface::dot_product(){
         std::ofstream myfile;
         std::stringstream stream;
         myfile.open ("/home/shantiverschoor/workspaces/Slic3r/dot.txt", std::ios_base::app);
-        stream <<std::fixed <<std::setprecision(2)<< facet.second.dot_product<<"\n";
+        stream <<std::fixed <<std::setprecision(3)<< facet.second.dot_product<<"\n";
         myfile <<stream.str();
         myfile.close();
   
@@ -199,12 +211,12 @@ NonplanarSurface::mag(){
         facet.second.b[0] = 0;
         facet.second.b[1] = 0;
         facet.second.b[2] = 1;
-        facet.second.maga = std::sqrt(facet.second.a[0]*facet.second.a[0]+facet.second.a[1]*facet.second.a[1]+facet.second.a[2]+facet.second.a[2]);
-        facet.second.magb = std::sqrt(facet.second.b[0]*facet.second.b[0]+facet.second.b[1]*facet.second.b[1]+facet.second.b[2]+facet.second.b[2]);
+        facet.second.maga = std::sqrt(facet.second.a[0]*facet.second.a[0]+facet.second.a[1]*facet.second.a[1]+facet.second.a[2]*facet.second.a[2]);
+        facet.second.magb = std::sqrt(facet.second.b[0]*facet.second.b[0]+facet.second.b[1]*facet.second.b[1]+facet.second.b[2]*facet.second.b[2]);
         std::ofstream myfile;
         std::stringstream stream;
         myfile.open ("/home/shantiverschoor/workspaces/Slic3r/mag.txt", std::ios_base::app);
-        stream <<std::fixed <<std::setprecision(2)<<"a="<<facet.second.maga <<" b="<<facet.second.magb<<"\n";
+        stream <<std::fixed <<std::setprecision(3)<<"a="<<facet.second.maga <<" b="<<facet.second.magb<<"\n";
         myfile <<stream.str();
         myfile.close();
     
@@ -222,13 +234,19 @@ NonplanarSurface::mag(){
 void
 NonplanarSurface::calculate_theta(){
     // the first facet gets a theta value (for now, can be looped over all facets)
-    //if surface is flat (test airfoil) use the first facet's theta as surface theta
+    //if surface is flat (test cheeseslice) use the first facet's theta as surface theta
     //for more complicated surfaces, you need to do something with multiple thetas (tbc)
  auto facet = this->mesh.begin();
     /// update: to make this return theta it needs to be set in the function calculate_theta and called in PrintObject. Otherwise the function does not know how to get correct normal, dot etc.
-    facet->second.N[0] = (facet->second.vertex[0].y*facet->second.vertex[1].z) - (facet->second.vertex[0].z*facet->second.vertex[1].y);
-    facet->second.N[1] = (facet->second.vertex[0].z*facet->second.vertex[1].x) - (facet->second.vertex[0].x*facet->second.vertex[1].z);
-    facet->second.N[2] = (facet->second.vertex[0].x*facet->second.vertex[1].y) - (facet->second.vertex[0].y*facet->second.vertex[1].x);
+    facet->second.U[0] = (facet->second.vertex[1].x - facet->second.vertex[0].x);
+    facet->second.U[1] = (facet->second.vertex[1].y - facet->second.vertex[0].y);
+    facet->second.U[2] = (facet->second.vertex[1].z - facet->second.vertex[0].z);
+    facet->second.V[0] = (facet->second.vertex[2].x - facet->second.vertex[0].x);
+    facet->second.V[1] = (facet->second.vertex[2].y - facet->second.vertex[0].y);
+    facet->second.V[2] = (facet->second.vertex[2].z - facet->second.vertex[0].z);
+    facet->second.N[0] = (facet->second.U[1]*facet->second.V[2]) - (facet->second.U[2]*facet->second.V[1]);
+    facet->second.N[1] = (facet->second.U[2]*facet->second.V[0]) - (facet->second.U[0]*facet->second.V[2]);
+    facet->second.N[2] = (facet->second.U[0]*facet->second.V[1]) - (facet->second.U[1]*facet->second.V[0]);
     facet->second.a[0] = facet->second.N[0];
     facet->second.a[1] = facet->second.N[1];
     facet->second.a[2] = facet->second.N[2];
@@ -238,15 +256,15 @@ NonplanarSurface::calculate_theta(){
     
      
     facet->second.dot_product = facet->second.a[0]*facet->second.b[0] +facet->second.a[1]*facet->second.b[1]+facet->second.a[2]*facet->second.b[2];
-    facet->second.maga = std::sqrt(facet->second.a[0]*facet->second.a[0]+facet->second.a[1]*facet->second.a[1]+facet->second.a[2]+facet->second.a[2]);
-    facet->second.magb = std::sqrt(facet->second.b[0]*facet->second.b[0]+facet->second.b[1]*facet->second.b[1]+facet->second.b[2]+facet->second.b[2]);
+    facet->second.maga = std::sqrt(facet->second.a[0]*facet->second.a[0]+facet->second.a[1]*facet->second.a[1]+facet->second.a[2]*facet->second.a[2]);
+    facet->second.magb = std::sqrt(facet->second.b[0]*facet->second.b[0]+facet->second.b[1]*facet->second.b[1]+facet->second.b[2]*facet->second.b[2]);
 
-    this->theta = std::acos((facet->second.dot_product/(facet->second.maga*facet->second.magb))); 
+    this->theta = 180* std::acos((facet->second.dot_product/(facet->second.maga*facet->second.magb)))/3.14159265;
     
     std::ofstream myfile;
     std::stringstream stream;
     myfile.open ("/home/shantiverschoor/workspaces/Slic3r/thetas.txt", std::ios_base::app);
-    stream <<std::fixed <<std::setprecision(2)<< "dot/mag= "<<facet->second.dot_product/(facet->second.maga*facet->second.magb)<<" a*b = "<<facet->second.maga*facet->second.magb<<"theta=  "<<this->theta<<"\n";
+    stream <<std::fixed <<std::setprecision(3)<< "dot/mag= "<<facet->second.dot_product/(facet->second.maga*facet->second.magb)<<" a*b = "<<facet->second.maga*facet->second.magb<<"theta=  "<<this->theta<<"\n";
     myfile <<stream.str();
     myfile.close();
     
