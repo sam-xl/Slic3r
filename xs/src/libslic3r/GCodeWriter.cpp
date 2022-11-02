@@ -10,7 +10,7 @@
 #define COMMENT(comment) if (this->config.gcode_comments && !comment.empty()) gcode << " ; " << comment;
 #define PRECISION(val, precision) std::fixed << std::setprecision(precision) << val
 #define XYZF_NUM(val) PRECISION(val, 3)
-#define THETA(val) PRECISION(val, 3)
+#define ORI_NUM(val) PRECISION(val, 3)
 #define E_NUM(val) PRECISION(val, 5)
 
 namespace Slic3r {
@@ -446,7 +446,7 @@ GCodeWriter::extrude_to_xyz(const Pointf3 &point, double dE, const std::string &
 }
 // new gcode command -robotic arm
 std::string
-GCodeWriter::extrude_to_xyz_theta(const Pointf3 &point, double dE, const std::string &comment)
+GCodeWriter::extrude_to_xyz_theta(const Pointf3 &point, double theta, double dE, const std::string &comment)
 {
     this->_pos = point;
     this->_lifted = 0;
@@ -458,7 +458,7 @@ GCodeWriter::extrude_to_xyz_theta(const Pointf3 &point, double dE, const std::st
           <<   " Y" << XYZF_NUM(point.y)
           <<   " Z" << XYZF_NUM(point.z)
           <<    " " << this->_extrusion_axis << E_NUM(this->_extruder->E)
-          <<    " B" << XYZF_NUM(30.0);
+          <<    " B" << ORI_NUM(theta); //print the right theta value here
     COMMENT(comment);
     gcode << "\n";
     return gcode.str();

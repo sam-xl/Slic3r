@@ -154,6 +154,7 @@ void
 NonplanarSurface::calculate_normal(){
 
     for(auto& facet : this->mesh){
+        
         facet.second.U[0] = (facet.second.vertex[1].x - facet.second.vertex[0].x);
         facet.second.U[1] = (facet.second.vertex[1].y - facet.second.vertex[0].y);
         facet.second.U[2] = (facet.second.vertex[1].z - facet.second.vertex[0].z);
@@ -161,9 +162,7 @@ NonplanarSurface::calculate_normal(){
         facet.second.V[1] = (facet.second.vertex[2].y - facet.second.vertex[0].y);
         facet.second.V[2] = (facet.second.vertex[2].z - facet.second.vertex[0].z);
 
-        ///facet.second.N[0] = (facet.second.vertex[0].y*facet.second.vertex[1].z) - (facet.second.vertex[0].z*facet.second.vertex[1].y);
-        ///facet.second.N[1] = (facet.second.vertex[0].z*facet.second.vertex[1].x) - (facet.second.vertex[0].x*facet.second.vertex[1].z);
-        ///facet.second.N[2] = (facet.second.vertex[0].x*facet.second.vertex[1].y) - (facet.second.vertex[0].y*facet.second.vertex[1].x);
+
         facet.second.N[0] = (facet.second.U[1]*facet.second.V[2]) - (facet.second.U[2]*facet.second.V[1]);
         facet.second.N[1] = (facet.second.U[2]*facet.second.V[0]) - (facet.second.U[0]*facet.second.V[2]);
         facet.second.N[2] = (facet.second.U[0]*facet.second.V[1]) - (facet.second.U[1]*facet.second.V[0]);
@@ -233,9 +232,29 @@ NonplanarSurface::mag(){
 
 void
 NonplanarSurface::calculate_theta(){
-    // the first facet gets a theta value (for now, can be looped over all facets)
-    //if surface is flat (test cheeseslice) use the first facet's theta as surface theta
-    //for more complicated surfaces, you need to do something with multiple thetas (tbc)
+// loop over all values to get a list of every theta value
+    for(auto& facet : this->mesh){
+        facet.second.a[0] = facet.second.N[0];
+        facet.second.a[1] = facet.second.N[1];
+        facet.second.a[2] = facet.second.N[2];
+        facet.second.b[0] = 0;
+        facet.second.b[1] = 0;
+        facet.second.b[2] = 1;
+        facet.second.dot_product = facet.second.a[0]*facet.second.b[0] +facet.second.a[1]*facet.second.b[1]+facet.second.a[2]*facet.second.b[2];
+        facet.second.maga = std::sqrt(facet.second.a[0]*facet.second.a[0]+facet.second.a[1]*facet.second.a[1]+facet.second.a[2]*facet.second.a[2]);
+        facet.second.magb = std::sqrt(facet.second.b[0]*facet.second.b[0]+facet.second.b[1]*facet.second.b[1]+facet.second.b[2]*facet.second.b[2]);
+    
+        std::ofstream myfile;
+        std::stringstream stream;
+        myfile.open ("/home/shantiverschoor/workspaces/Slic3r/thetas_loop.txt", std::ios_base::app);
+        this->theta = -180* std::acos((facet.second.dot_product/(facet.second.maga*facet.second.magb)))/3.14159265;
+        stream <<std::fixed <<this->theta<<"\n";
+        myfile <<stream.str();
+        myfile.close();
+    }
+// the first facet gets a theta value (for now, can be looped over all facets)
+//if surface is flat (test cheeseslice) use the first facet's theta as surface theta
+//for more complicated surfaces, you need to do something with multiple thetas (tbc)
  auto facet = this->mesh.begin();
     /// update: to make this return theta it needs to be set in the function calculate_theta and called in PrintObject. Otherwise the function does not know how to get correct normal, dot etc.
     facet->second.U[0] = (facet->second.vertex[1].x - facet->second.vertex[0].x);

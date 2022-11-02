@@ -7,3 +7,34 @@ dot/mag= 0.033 a*b = 750.433theta=  1.537
 dot/mag= 0.033 a*b = 750.433theta=  280.835
 dot/mag= 0.981 a*b = 50.990theta=  225.605
 dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.990 a*b = 5.111theta=  7.972
+dot/mag= 0.990 a*b = 5.111theta=  25.815
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.990 a*b = 5.111theta=  25.815
+"""""""""
+
+dot/mag= 0.990 a*b = 5.111theta=  25.815
+dot/mag= 0.966 a*b = 1940.522theta=  14.931
+dot/mag= 0.966 a*b = 1940.522theta=  14.931
+dot/mag= 0.966 a*b = 1940.522theta=  14.931
+dot/mag= 0.966 a*b = 1940.522theta=  14.931
+dot/mag= 0.966 a*b = 1940.522theta=  14.931
+dot/mag= 0.990 a*b = 5.111theta=  7.972
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.981 a*b = 50.990theta=  11.310
+dot/mag= 0.990 a*b = 5.111theta=  7.972

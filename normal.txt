@@ -1,171 +1,1035 @@
-0x7f66c001c2f4
-0x7f66c001c9e4
-x -5.00y750.00z 25.00
-x -20.00y0.00z 25.00
-x 0.35y-0.42z 2.53
-x 4.23y-0.42z -1440.76
-x 0.59y-0.69z 4.21
-x 5.18y-0.69z -1434.02
-x 0.82y-0.96z 5.88
-x 6.58y-0.96z -1423.93
-x 1.04y-1.23z 7.54
-x 8.44y-1.23z -1410.51
-x 1.26y-1.48z 9.18
-x 10.75y-1.48z -1393.79
-x 1.47y-1.73z 10.80
-x 13.48y-1.73z -1373.82
-x 1.67y-1.97z 12.39
-x 16.62y-1.97z -1350.63
-x 1.86y-2.20z 13.95
-x 20.15y-2.20z -1324.29
-x 2.04y-2.41z 15.48
-x 24.05y-2.41z -1294.85
-x 2.21y-2.61z 16.98
-x 28.30y-2.61z -1262.39
-x 2.36y-2.80z 18.43
-x 32.86y-2.80z -1226.98
-x 2.50y-2.98z 19.85
-x 37.73y-2.98z -1188.70
-x 2.63y-3.14z 21.21
-x 42.87y-3.14z -1147.64
-x 2.75y-3.30z 22.53
-x 48.25y-3.30z -1103.90
-x 2.85y-3.43z 23.79
-x 53.84y-3.43z -1057.58
-x 2.93y-3.56z 25.00
-x 59.63y-3.56z -1008.79
-x 3.01y-3.68z 26.15
-x 65.57y-3.68z -957.63
-x 3.06y-3.78z 27.24
-x 71.64y-3.78z -904.25
-x 3.11y-3.87z 28.26
-x 77.81y-3.87z -848.74
-x 3.14y-3.95z 29.22
-x 84.05y-3.95z -791.25
-x 3.15y-4.02z 30.11
-x 90.34y-4.02z -731.92
-x 3.15y-4.08z 30.93
-x 96.63y-4.08z -670.87
-x 3.13y-4.13z 31.68
-x 102.91y-4.13z -608.25
-x 3.10y-4.17z 32.36
-x 109.13y-4.17z -544.21
-x 3.05y-4.21z 32.96
-x 115.27y-4.21z -478.90
-x 2.98y-4.23z 33.48
-x 121.30y-4.23z -412.46
-x 2.90y-4.25z 33.92
-x 127.17y-4.25z -345.06
-x 2.79y-4.26z 34.29
-x 132.86y-4.26z -276.86
-x 2.67y-4.27z 34.57
-x 138.33y-4.27z -208.00
-x 2.54y-4.27z 34.77
-x 143.54y-4.27z -138.66
-x 2.38y-4.28z 34.90
-x 148.45y-4.28z -68.99
-x 2.20y-4.28z 34.94
-x 153.04y-4.28z 0.84
-x 2.01y-4.28z 34.90
-x 157.25y-4.28z 70.68
-x 1.80y-4.28z 34.77
-x 161.06y-4.28z 140.35
-x 1.57y-4.28z 34.57
-x 164.42y-4.28z 209.69
-x 1.32y-4.30z 34.29
-x 167.31y-4.30z 278.54
-x 1.05y-4.31z 33.92
-x 169.68y-4.31z 346.75
-x 0.77y-4.34z 33.48
-x 171.50y-4.34z 414.15
-x 0.47y-4.37z 32.96
-x 172.74y-4.37z 480.58
-x 0.17y-4.42z 32.36
-x 173.38y-4.42z 545.90
-x -0.15y-4.47z 31.68
-x 173.39y-4.47z 609.94
-x -0.48y-4.54z 30.93
-x 172.76y-4.54z 672.56
-x -0.82y-4.61z 30.11
-x 171.45y-4.61z 733.61
-x -1.16y-4.70z 29.22
-x 169.47y-4.70z 792.94
-x -1.50y-4.80z 28.26
-x 166.80y-4.80z 850.43
-x -1.85y-4.90z 27.24
-x 163.45y-4.90z 905.93
-x -2.19y-5.02z 26.15
-x 159.41y-5.02z 959.32
-x -2.52y-5.14z 25.00
-x 154.70y-5.14z 1010.47
-x -2.85y-5.26z 23.79
-x 149.32y-5.26z 1059.27
-x -3.17y-5.39z 22.53
-x 143.29y-5.39z 1105.59
-x -3.48y-5.52z 21.21
-x 136.64y-5.52z 1149.33
-x -3.78y-5.65z 19.85
-x 129.38y-5.65z 1190.39
-x -4.06y-5.78z 18.43
-x 121.55y-5.78z 1228.67
-x -4.32y-5.91z 16.98
-x 113.17y-5.91z 1264.08
-x -4.57y-6.03z 15.48
-x 104.27y-6.03z 1296.54
-x -4.80y-6.16z 13.95
-x 94.90y-6.16z 1325.98
-x -5.02y-6.28z 12.39
-x 85.07y-6.28z 1352.32
-x -5.22y-6.39z 10.80
-x 74.83y-6.39z 1375.50
-x -5.41y-6.51z 9.18
-x 64.20y-6.51z 1395.48
-x -5.58y-6.62z 7.54
-x 53.21y-6.62z 1412.19
-x -5.74y-6.74z 5.88
-x 41.89y-6.74z 1425.62
-x -5.00y750.00z 25.00
-x -20.00y0.00z 25.00
-x -5.00y750.00z 25.00
-x -20.00y0.00z 25.00
-x -5.00y750.00z 25.00
-x -20.00y0.00z 25.00
-x -5.00y 750.00z 25.00
-vertex 0: -25.00 vertex 1: 25.00
-x -20.00y 0.00z 25.00
-vertex 0: 25.00 vertex 1: 25.00
-x -5.00y 750.00z 25.00
-vertex 0: -25.00 vertex 1: 25.00
-x -20.00y 0.00z 25.00
-vertex 0: 25.00 vertex 1: 25.00
-x -5.00y 750.00z 25.00
-vertex 0: -25.00 vertex 1: 25.00
-x -20.00y 0.00z 25.00
-vertex 0: 25.00 vertex 1: 25.00
-x -5.00y 750.00z 25.00
-vertex 0: -25.00 vertex 1: 25.00
-vertex 0: -0.50 vertex 1: -0.50
-vertex 0: 10.00 vertex 1: 20.00
-x -20.00y 0.00z 25.00
-vertex 0: 25.00 vertex 1: 25.00
-vertex 0: -0.50 vertex 1: 0.50
-vertex 0: 20.00 vertex 1: 20.00
-x -5.00y 750.00z 25.00
-vertex 0: -25.00 vertex 1: 25.00vertex 2: -25.00
-vertex 0: -0.50 vertex 1: -0.50vertex 2: 0.50
-vertex 0: 10.00 vertex 1: 20.00vertex 2: 10.00
-x -20.00y 0.00z 25.00
-vertex 0: 25.00 vertex 1: 25.00vertex 2: -25.00
-vertex 0: -0.50 vertex 1: 0.50vertex 2: 0.50
-vertex 0: 20.00 vertex 1: 20.00vertex 2: 10.00
-x -10.00y 0.00z 50.00
-vertex 0: -25.00 vertex 1: 25.00vertex 2: -25.00
-vertex 0: -0.50 vertex 1: -0.50vertex 2: 0.50
-vertex 0: 10.00 vertex 1: 20.00vertex 2: 10.00
-x -10.00y 0.00z 50.00
-vertex 0: 25.00 vertex 1: 25.00vertex 2: -25.00
-vertex 0: -0.50 vertex 1: 0.50vertex 2: 0.50
-vertex 0: 20.00 vertex 1: 20.00vertex 2: 10.00
+x 0.709y 0.000z 5.061
+vertex 0: 28.866 vertex 1: 28.765vertex 2: 28.765
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.078 vertex 1: 0.092vertex 2: 0.092
+x 0.709y 0.000z 5.061
+vertex 0: 28.866 vertex 1: 28.765vertex 2: 28.866
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.078 vertex 1: 0.092vertex 2: 0.078
+x 1.176y 0.000z 8.422
+vertex 0: 28.765 vertex 1: 28.596vertex 2: 28.596
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.092 vertex 1: 0.115vertex 2: 0.115
+x 1.176y 0.000z 8.422
+vertex 0: 28.765 vertex 1: 28.596vertex 2: 28.765
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.092 vertex 1: 0.115vertex 2: 0.092
+x 1.636y 0.000z 11.764
+vertex 0: 28.596 vertex 1: 28.361vertex 2: 28.361
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.115 vertex 1: 0.148vertex 2: 0.148
+x 1.636y 0.000z 11.764
+vertex 0: 28.596 vertex 1: 28.361vertex 2: 28.596
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.115 vertex 1: 0.148vertex 2: 0.115
+x 2.085y 0.000z 15.077
+vertex 0: 28.361 vertex 1: 28.059vertex 2: 28.059
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.148 vertex 1: 0.190vertex 2: 0.190
+x 2.085y 0.000z 15.077
+vertex 0: 28.361 vertex 1: 28.059vertex 2: 28.361
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.148 vertex 1: 0.190vertex 2: 0.148
+x 2.520y 0.000z 18.356
+vertex 0: 28.059 vertex 1: 27.692vertex 2: 27.692
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.190 vertex 1: 0.240vertex 2: 0.240
+x 2.520y 0.000z 18.356
+vertex 0: 28.059 vertex 1: 27.692vertex 2: 28.059
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.190 vertex 1: 0.240vertex 2: 0.190
+x 2.940y 0.000z 21.592
+vertex 0: 27.692 vertex 1: 27.260vertex 2: 27.260
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.240 vertex 1: 0.299vertex 2: 0.299
+x 2.940y 0.000z 21.592
+vertex 0: 27.692 vertex 1: 27.260vertex 2: 27.692
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.240 vertex 1: 0.299vertex 2: 0.240
+x 3.341y 0.000z 24.777
+vertex 0: 27.260 vertex 1: 26.765vertex 2: 26.765
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.299 vertex 1: 0.366vertex 2: 0.366
+x 3.341y 0.000z 24.777
+vertex 0: 27.260 vertex 1: 26.765vertex 2: 27.260
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.299 vertex 1: 0.366vertex 2: 0.299
+x 3.722y 0.000z 27.905
+vertex 0: 26.765 vertex 1: 26.207vertex 2: 26.207
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.366 vertex 1: 0.440vertex 2: 0.440
+x 3.722y 0.000z 27.905
+vertex 0: 26.765 vertex 1: 26.207vertex 2: 26.765
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.366 vertex 1: 0.440vertex 2: 0.366
+x 4.080y 0.000z 30.967
+vertex 0: 26.207 vertex 1: 25.587vertex 2: 25.587
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.440 vertex 1: 0.522vertex 2: 0.522
+x 4.080y 0.000z 30.967
+vertex 0: 26.207 vertex 1: 25.587vertex 2: 26.207
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.440 vertex 1: 0.522vertex 2: 0.440
+x 4.415y 0.000z 33.957
+vertex 0: 25.587 vertex 1: 24.908vertex 2: 24.908
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.522 vertex 1: 0.610vertex 2: 0.610
+x 4.415y 0.000z 33.957
+vertex 0: 25.587 vertex 1: 24.908vertex 2: 25.587
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.522 vertex 1: 0.610vertex 2: 0.522
+x 4.724y 0.000z 36.868
+vertex 0: 24.908 vertex 1: 24.171vertex 2: 24.171
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.610 vertex 1: 0.705vertex 2: 0.705
+x 4.724y 0.000z 36.868
+vertex 0: 24.908 vertex 1: 24.171vertex 2: 24.908
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.610 vertex 1: 0.705vertex 2: 0.610
+x 5.008y 0.000z 39.692
+vertex 0: 24.171 vertex 1: 23.377vertex 2: 23.377
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.705 vertex 1: 0.805vertex 2: 0.805
+x 5.008y 0.000z 39.692
+vertex 0: 24.171 vertex 1: 23.377vertex 2: 24.171
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.705 vertex 1: 0.805vertex 2: 0.705
+x 5.265y 0.000z 42.424
+vertex 0: 23.377 vertex 1: 22.529vertex 2: 22.529
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.805 vertex 1: 0.910vertex 2: 0.910
+x 5.265y 0.000z 42.424
+vertex 0: 23.377 vertex 1: 22.529vertex 2: 23.377
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.805 vertex 1: 0.910vertex 2: 0.805
+x 5.495y 0.000z 45.057
+vertex 0: 22.529 vertex 1: 21.627vertex 2: 21.627
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.910 vertex 1: 1.020vertex 2: 1.020
+x 5.495y 0.000z 45.057
+vertex 0: 22.529 vertex 1: 21.627vertex 2: 22.529
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.910 vertex 1: 1.020vertex 2: 0.910
+x 5.696y 0.000z 47.585
+vertex 0: 21.627 vertex 1: 20.676vertex 2: 20.676
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.020 vertex 1: 1.134vertex 2: 1.134
+x 5.696y 0.000z 47.585
+vertex 0: 21.627 vertex 1: 20.676vertex 2: 21.627
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.020 vertex 1: 1.134vertex 2: 1.020
+x 5.869y 0.000z 50.001
+vertex 0: 20.676 vertex 1: 19.676vertex 2: 19.676
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.134 vertex 1: 1.251vertex 2: 1.251
+x 5.869y 0.000z 50.001
+vertex 0: 20.676 vertex 1: 19.676vertex 2: 20.676
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.134 vertex 1: 1.251vertex 2: 1.134
+x 6.013y 0.000z 52.301
+vertex 0: 19.676 vertex 1: 18.630vertex 2: 18.630
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.251 vertex 1: 1.371vertex 2: 1.371
+x 6.013y 0.000z 52.301
+vertex 0: 19.676 vertex 1: 18.630vertex 2: 19.676
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.251 vertex 1: 1.371vertex 2: 1.251
+x 6.129y 0.000z 54.478
+vertex 0: 18.630 vertex 1: 17.540vertex 2: 17.540
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.371 vertex 1: 1.494vertex 2: 1.494
+x 6.129y 0.000z 54.478
+vertex 0: 18.630 vertex 1: 17.540vertex 2: 18.630
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.371 vertex 1: 1.494vertex 2: 1.371
+x 6.214y 0.000z 56.528
+vertex 0: 17.540 vertex 1: 16.410vertex 2: 16.410
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.494 vertex 1: 1.618vertex 2: 1.618
+x 6.214y 0.000z 56.528
+vertex 0: 17.540 vertex 1: 16.410vertex 2: 17.540
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.494 vertex 1: 1.618vertex 2: 1.494
+x 6.271y 0.000z 58.447
+vertex 0: 16.410 vertex 1: 15.241vertex 2: 15.241
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.618 vertex 1: 1.744vertex 2: 1.744
+x 6.271y 0.000z 58.447
+vertex 0: 16.410 vertex 1: 15.241vertex 2: 16.410
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.618 vertex 1: 1.744vertex 2: 1.618
+x 6.298y 0.000z 60.229
+vertex 0: 15.241 vertex 1: 14.036vertex 2: 14.036
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.744 vertex 1: 1.870vertex 2: 1.870
+x 6.298y 0.000z 60.229
+vertex 0: 15.241 vertex 1: 14.036vertex 2: 15.241
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.744 vertex 1: 1.870vertex 2: 1.744
+x 6.293y 0.000z 61.869
+vertex 0: 14.036 vertex 1: 12.799vertex 2: 12.799
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.870 vertex 1: 1.996vertex 2: 1.996
+x 6.293y 0.000z 61.869
+vertex 0: 14.036 vertex 1: 12.799vertex 2: 14.036
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.870 vertex 1: 1.996vertex 2: 1.870
+x 6.258y 0.000z 63.366
+vertex 0: 12.799 vertex 1: 11.531vertex 2: 11.531
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.996 vertex 1: 2.121vertex 2: 2.121
+x 6.258y 0.000z 63.366
+vertex 0: 12.799 vertex 1: 11.531vertex 2: 12.799
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.996 vertex 1: 2.121vertex 2: 1.996
+x 6.191y 0.000z 64.715
+vertex 0: 11.531 vertex 1: 10.237vertex 2: 10.237
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.121 vertex 1: 2.245vertex 2: 2.245
+x 6.191y 0.000z 64.715
+vertex 0: 11.531 vertex 1: 10.237vertex 2: 11.531
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.121 vertex 1: 2.245vertex 2: 2.121
+x 6.091y 0.000z 65.912
+vertex 0: 10.237 vertex 1: 8.919vertex 2: 8.919
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.245 vertex 1: 2.366vertex 2: 2.366
+x 6.091y 0.000z 65.912
+vertex 0: 10.237 vertex 1: 8.919vertex 2: 10.237
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.245 vertex 1: 2.366vertex 2: 2.245
+x 5.958y 0.000z 66.956
+vertex 0: 8.919 vertex 1: 7.580vertex 2: 7.580
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.366 vertex 1: 2.486vertex 2: 2.486
+x 5.958y 0.000z 66.956
+vertex 0: 8.919 vertex 1: 7.580vertex 2: 8.919
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.366 vertex 1: 2.486vertex 2: 2.366
+x 5.790y 0.000z 67.843
+vertex 0: 7.580 vertex 1: 6.223vertex 2: 6.223
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.486 vertex 1: 2.601vertex 2: 2.601
+x 5.790y 0.000z 67.843
+vertex 0: 7.580 vertex 1: 6.223vertex 2: 7.580
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.486 vertex 1: 2.601vertex 2: 2.486
+x 5.587y 0.000z 68.571
+vertex 0: 6.223 vertex 1: 4.851vertex 2: 4.851
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.601 vertex 1: 2.713vertex 2: 2.713
+x 5.587y 0.000z 68.571
+vertex 0: 6.223 vertex 1: 4.851vertex 2: 6.223
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.601 vertex 1: 2.713vertex 2: 2.601
+x 5.348y 0.000z 69.140
+vertex 0: 4.851 vertex 1: 3.469vertex 2: 3.469
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.713 vertex 1: 2.820vertex 2: 2.820
+x 5.348y 0.000z 69.140
+vertex 0: 4.851 vertex 1: 3.469vertex 2: 4.851
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.713 vertex 1: 2.820vertex 2: 2.713
+x 5.073y 0.000z 69.547
+vertex 0: 3.469 vertex 1: 2.078vertex 2: 2.078
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.820 vertex 1: 2.921vertex 2: 2.921
+x 5.073y 0.000z 69.547
+vertex 0: 3.469 vertex 1: 2.078vertex 2: 3.469
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.820 vertex 1: 2.921vertex 2: 2.820
+x 4.759y 0.000z 69.791
+vertex 0: 2.078 vertex 1: 0.682vertex 2: 0.682
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.921 vertex 1: 3.017vertex 2: 3.017
+x 4.759y 0.000z 69.791
+vertex 0: 2.078 vertex 1: 0.682vertex 2: 2.078
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.921 vertex 1: 3.017vertex 2: 2.921
+x 4.409y 0.000z 69.873
+vertex 0: 0.682 vertex 1: -0.716vertex 2: -0.716
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.017 vertex 1: 3.105vertex 2: 3.105
+x 4.409y 0.000z 69.873
+vertex 0: 0.682 vertex 1: -0.716vertex 2: 0.682
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.017 vertex 1: 3.105vertex 2: 3.017
+x 4.020y 0.000z 69.791
+vertex 0: -0.716 vertex 1: -2.111vertex 2: -2.111
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.105 vertex 1: 3.185vertex 2: 3.185
+x 4.020y 0.000z 69.791
+vertex 0: -0.716 vertex 1: -2.111vertex 2: -0.716
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.105 vertex 1: 3.185vertex 2: 3.105
+x 3.595y 0.000z 69.547
+vertex 0: -2.111 vertex 1: -3.502vertex 2: -3.502
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.185 vertex 1: 3.257vertex 2: 3.257
+x 3.595y 0.000z 69.547
+vertex 0: -2.111 vertex 1: -3.502vertex 2: -2.111
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.185 vertex 1: 3.257vertex 2: 3.185
+x 3.133y 0.000z 69.140
+vertex 0: -3.502 vertex 1: -4.885vertex 2: -4.885
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.257 vertex 1: 3.320vertex 2: 3.320
+x 3.133y 0.000z 69.140
+vertex 0: -3.502 vertex 1: -4.885vertex 2: -3.502
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.257 vertex 1: 3.320vertex 2: 3.257
+x 2.635y 0.000z 68.571
+vertex 0: -4.885 vertex 1: -6.257vertex 2: -6.257
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.320 vertex 1: 3.373vertex 2: 3.373
+x 2.635y 0.000z 68.571
+vertex 0: -4.885 vertex 1: -6.257vertex 2: -4.885
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.320 vertex 1: 3.373vertex 2: 3.320
+x 2.103y 0.000z 67.843
+vertex 0: -6.257 vertex 1: -7.613vertex 2: -7.613
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.373 vertex 1: 3.415vertex 2: 3.415
+x 2.103y 0.000z 67.843
+vertex 0: -6.257 vertex 1: -7.613vertex 2: -6.257
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.373 vertex 1: 3.415vertex 2: 3.373
+x 1.541y 0.000z 66.956
+vertex 0: -7.613 vertex 1: -8.953vertex 2: -8.953
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.415 vertex 1: 3.445vertex 2: 3.445
+x 1.541y 0.000z 66.956
+vertex 0: -7.613 vertex 1: -8.953vertex 2: -7.613
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.415 vertex 1: 3.445vertex 2: 3.415
+x 0.949y 0.000z 65.912
+vertex 0: -8.953 vertex 1: -10.271vertex 2: -10.271
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.464vertex 2: 3.464
+x 0.949y 0.000z 65.912
+vertex 0: -8.953 vertex 1: -10.271vertex 2: -8.953
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.464vertex 2: 3.445
+x 0.331y 0.000z 64.715
+vertex 0: -10.271 vertex 1: -11.565vertex 2: -11.565
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.464 vertex 1: 3.471vertex 2: 3.471
+x 0.331y 0.000z 64.715
+vertex 0: -10.271 vertex 1: -11.565vertex 2: -10.271
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.464 vertex 1: 3.471vertex 2: 3.464
+x -0.309y 0.000z 63.366
+vertex 0: -11.565 vertex 1: -12.832vertex 2: -12.832
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.471 vertex 1: 3.465vertex 2: 3.465
+x -0.309y 0.000z 63.366
+vertex 0: -11.565 vertex 1: -12.832vertex 2: -11.565
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.471 vertex 1: 3.465vertex 2: 3.471
+x -0.968y 0.000z 61.869
+vertex 0: -12.832 vertex 1: -14.070vertex 2: -14.070
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.465 vertex 1: 3.445vertex 2: 3.445
+x -0.968y 0.000z 61.869
+vertex 0: -12.832 vertex 1: -14.070vertex 2: -12.832
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.465 vertex 1: 3.445vertex 2: 3.465
+x -1.641y 0.000z 60.228
+vertex 0: -14.070 vertex 1: -15.274vertex 2: -15.274
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.413vertex 2: 3.413
+x -1.641y 0.000z 60.228
+vertex 0: -14.070 vertex 1: -15.274vertex 2: -14.070
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.413vertex 2: 3.445
+x -2.323y 0.000z 58.447
+vertex 0: -15.274 vertex 1: -16.443vertex 2: -16.443
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.413 vertex 1: 3.366vertex 2: 3.366
+x -2.323y 0.000z 58.447
+vertex 0: -15.274 vertex 1: -16.443vertex 2: -15.274
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.413 vertex 1: 3.366vertex 2: 3.413
+x -3.010y 0.000z 56.529
+vertex 0: -16.443 vertex 1: -17.574vertex 2: -17.574
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.366 vertex 1: 3.306vertex 2: 3.306
+x -3.010y 0.000z 56.529
+vertex 0: -16.443 vertex 1: -17.574vertex 2: -16.443
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.366 vertex 1: 3.306vertex 2: 3.366
+x -3.697y 0.000z 54.478
+vertex 0: -17.574 vertex 1: -18.663vertex 2: -18.663
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.306 vertex 1: 3.232vertex 2: 3.232
+x -3.697y 0.000z 54.478
+vertex 0: -17.574 vertex 1: -18.663vertex 2: -17.574
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.306 vertex 1: 3.232vertex 2: 3.306
+x -4.378y 0.000z 52.301
+vertex 0: -18.663 vertex 1: -19.709vertex 2: -19.709
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.232 vertex 1: 3.144vertex 2: 3.144
+x -4.378y 0.000z 52.301
+vertex 0: -18.663 vertex 1: -19.709vertex 2: -18.663
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.232 vertex 1: 3.144vertex 2: 3.232
+x -5.050y 0.000z 50.001
+vertex 0: -19.709 vertex 1: -20.709vertex 2: -20.709
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.144 vertex 1: 3.043vertex 2: 3.043
+x -5.050y 0.000z 50.001
+vertex 0: -19.709 vertex 1: -20.709vertex 2: -19.709
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.144 vertex 1: 3.043vertex 2: 3.144
+x -5.708y 0.000z 47.585
+vertex 0: -20.709 vertex 1: -21.661vertex 2: -21.661
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.043 vertex 1: 2.929vertex 2: 2.929
+x -5.708y 0.000z 47.585
+vertex 0: -20.709 vertex 1: -21.661vertex 2: -20.709
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.043 vertex 1: 2.929vertex 2: 3.043
+x -6.346y 0.000z 45.057
+vertex 0: -21.661 vertex 1: -22.562vertex 2: -22.562
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.929 vertex 1: 2.802vertex 2: 2.802
+x -6.346y 0.000z 45.057
+vertex 0: -21.661 vertex 1: -22.562vertex 2: -21.661
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.929 vertex 1: 2.802vertex 2: 2.929
+x -6.963y 0.000z 42.424
+vertex 0: -22.562 vertex 1: -23.411vertex 2: -23.411
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.802 vertex 1: 2.663vertex 2: 2.663
+x -6.963y 0.000z 42.424
+vertex 0: -22.562 vertex 1: -23.411vertex 2: -22.562
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.802 vertex 1: 2.663vertex 2: 2.802
+x -7.552y 0.000z 39.692
+vertex 0: -23.411 vertex 1: -24.205vertex 2: -24.205
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.663 vertex 1: 2.512vertex 2: 2.512
+x -7.552y 0.000z 39.692
+vertex 0: -23.411 vertex 1: -24.205vertex 2: -23.411
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.663 vertex 1: 2.512vertex 2: 2.663
+x -8.114y 0.000z 36.868
+vertex 0: -24.205 vertex 1: -24.942vertex 2: -24.942
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.512 vertex 1: 2.350vertex 2: 2.350
+x -8.114y 0.000z 36.868
+vertex 0: -24.205 vertex 1: -24.942vertex 2: -24.205
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.512 vertex 1: 2.350vertex 2: 2.512
+x -8.645y 0.000z 33.957
+vertex 0: -24.942 vertex 1: -25.621vertex 2: -25.621
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.350 vertex 1: 2.177vertex 2: 2.177
+x -8.645y 0.000z 33.957
+vertex 0: -24.942 vertex 1: -25.621vertex 2: -24.942
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.350 vertex 1: 2.177vertex 2: 2.350
+x -9.144y 0.000z 30.967
+vertex 0: -25.621 vertex 1: -26.241vertex 2: -26.241
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.177 vertex 1: 1.994vertex 2: 1.994
+x -9.144y 0.000z 30.967
+vertex 0: -25.621 vertex 1: -26.241vertex 2: -25.621
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.177 vertex 1: 1.994vertex 2: 2.177
+x -9.610y 0.000z 27.905
+vertex 0: -26.241 vertex 1: -26.799vertex 2: -26.799
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.994 vertex 1: 1.802vertex 2: 1.802
+x -9.610y 0.000z 27.905
+vertex 0: -26.241 vertex 1: -26.799vertex 2: -26.241
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.994 vertex 1: 1.802vertex 2: 1.994
+x -10.043y 0.000z 24.777
+vertex 0: -26.799 vertex 1: -27.294vertex 2: -27.294
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.802 vertex 1: 1.601vertex 2: 1.601
+x -10.043y 0.000z 24.777
+vertex 0: -26.799 vertex 1: -27.294vertex 2: -26.799
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.802 vertex 1: 1.601vertex 2: 1.802
+x -10.445y 0.000z 21.592
+vertex 0: -27.294 vertex 1: -27.726vertex 2: -27.726
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.601 vertex 1: 1.392vertex 2: 1.392
+x -10.445y 0.000z 21.592
+vertex 0: -27.294 vertex 1: -27.726vertex 2: -27.294
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.601 vertex 1: 1.392vertex 2: 1.601
+x 500.000y -0.000z 1875.000
+vertex 0: -36.500 vertex 1: 38.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 10.000vertex 2: 30.000
+x 500.000y -0.000z 1875.000
+vertex 0: 38.500 vertex 1: 38.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: 12.500vertex 2: 12.500
+vertex 0: 10.000 vertex 1: 10.000vertex 2: 30.000
+x -0.000y 0.000z 50.000
+vertex 0: -38.500 vertex 1: -38.500vertex 2: -36.500
+vertex 0: 12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 30.000vertex 2: 30.000
+x 0.000y 0.000z 50.000
+vertex 0: -38.500 vertex 1: -36.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 30.000vertex 2: 30.000
+x 500.000y -0.000z 1875.000
+vertex 0: -36.500 vertex 1: 38.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 10.000vertex 2: 30.000
+x 500.000y -0.000z 1875.000
+vertex 0: 38.500 vertex 1: 38.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: 12.500vertex 2: 12.500
+vertex 0: 10.000 vertex 1: 10.000vertex 2: 30.000
+x -0.000y 0.000z 50.000
+vertex 0: -38.500 vertex 1: -38.500vertex 2: -36.500
+vertex 0: 12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 30.000vertex 2: 30.000
+x 0.000y 0.000z 50.000
+vertex 0: -38.500 vertex 1: -36.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 30.000vertex 2: 30.000
+x 500.000y -0.000z 1875.000
+vertex 0: -36.500 vertex 1: 38.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 10.000vertex 2: 30.000
+x 500.000y -0.000z 1875.000
+vertex 0: 38.500 vertex 1: 38.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: 12.500vertex 2: 12.500
+vertex 0: 10.000 vertex 1: 10.000vertex 2: 30.000
+x -0.000y 0.000z 50.000
+vertex 0: -38.500 vertex 1: -38.500vertex 2: -36.500
+vertex 0: 12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 30.000vertex 2: 30.000
+x 0.000y 0.000z 50.000
+vertex 0: -38.500 vertex 1: -36.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 30.000vertex 2: 30.000
+x 500.000y -0.000z 1875.000
+vertex 0: -36.500 vertex 1: 38.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 10.000vertex 2: 30.000
+x 500.000y -0.000z 1875.000
+vertex 0: 38.500 vertex 1: 38.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: 12.500vertex 2: 12.500
+vertex 0: 10.000 vertex 1: 10.000vertex 2: 30.000
+x -0.000y 0.000z 50.000
+vertex 0: -38.500 vertex 1: -38.500vertex 2: -36.500
+vertex 0: 12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 30.000vertex 2: 30.000
+x 0.000y 0.000z 50.000
+vertex 0: -38.500 vertex 1: -36.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 30.000vertex 2: 30.000
+x 500.000y -0.000z 1875.000
+vertex 0: -36.500 vertex 1: 38.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 10.000vertex 2: 30.000
+x 500.000y -0.000z 1875.000
+vertex 0: 38.500 vertex 1: 38.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: 12.500vertex 2: 12.500
+vertex 0: 10.000 vertex 1: 10.000vertex 2: 30.000
+x -0.000y 0.000z 50.000
+vertex 0: -38.500 vertex 1: -38.500vertex 2: -36.500
+vertex 0: 12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 30.000vertex 2: 30.000
+x 0.000y 0.000z 50.000
+vertex 0: -38.500 vertex 1: -36.500vertex 2: -36.500
+vertex 0: -12.500 vertex 1: -12.500vertex 2: 12.500
+vertex 0: 30.000 vertex 1: 30.000vertex 2: 30.000
+x 0.709y 0.000z 5.061
+vertex 0: 28.866 vertex 1: 28.765vertex 2: 28.765
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.078 vertex 1: 0.092vertex 2: 0.092
+x 0.709y 0.000z 5.061
+vertex 0: 28.866 vertex 1: 28.765vertex 2: 28.866
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.078 vertex 1: 0.092vertex 2: 0.078
+x 1.176y 0.000z 8.422
+vertex 0: 28.765 vertex 1: 28.596vertex 2: 28.596
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.092 vertex 1: 0.115vertex 2: 0.115
+x 1.176y 0.000z 8.422
+vertex 0: 28.765 vertex 1: 28.596vertex 2: 28.765
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.092 vertex 1: 0.115vertex 2: 0.092
+x 1.636y 0.000z 11.764
+vertex 0: 28.596 vertex 1: 28.361vertex 2: 28.361
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.115 vertex 1: 0.148vertex 2: 0.148
+x 1.636y 0.000z 11.764
+vertex 0: 28.596 vertex 1: 28.361vertex 2: 28.596
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.115 vertex 1: 0.148vertex 2: 0.115
+x 2.085y 0.000z 15.077
+vertex 0: 28.361 vertex 1: 28.059vertex 2: 28.059
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.148 vertex 1: 0.190vertex 2: 0.190
+x 2.085y 0.000z 15.077
+vertex 0: 28.361 vertex 1: 28.059vertex 2: 28.361
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.148 vertex 1: 0.190vertex 2: 0.148
+x 2.520y 0.000z 18.356
+vertex 0: 28.059 vertex 1: 27.692vertex 2: 27.692
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.190 vertex 1: 0.240vertex 2: 0.240
+x 2.520y 0.000z 18.356
+vertex 0: 28.059 vertex 1: 27.692vertex 2: 28.059
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.190 vertex 1: 0.240vertex 2: 0.190
+x 2.940y 0.000z 21.592
+vertex 0: 27.692 vertex 1: 27.260vertex 2: 27.260
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.240 vertex 1: 0.299vertex 2: 0.299
+x 2.940y 0.000z 21.592
+vertex 0: 27.692 vertex 1: 27.260vertex 2: 27.692
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.240 vertex 1: 0.299vertex 2: 0.240
+x 3.341y 0.000z 24.777
+vertex 0: 27.260 vertex 1: 26.765vertex 2: 26.765
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.299 vertex 1: 0.366vertex 2: 0.366
+x 3.341y 0.000z 24.777
+vertex 0: 27.260 vertex 1: 26.765vertex 2: 27.260
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.299 vertex 1: 0.366vertex 2: 0.299
+x 3.722y 0.000z 27.905
+vertex 0: 26.765 vertex 1: 26.207vertex 2: 26.207
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.366 vertex 1: 0.440vertex 2: 0.440
+x 3.722y 0.000z 27.905
+vertex 0: 26.765 vertex 1: 26.207vertex 2: 26.765
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.366 vertex 1: 0.440vertex 2: 0.366
+x 4.080y 0.000z 30.967
+vertex 0: 26.207 vertex 1: 25.587vertex 2: 25.587
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.440 vertex 1: 0.522vertex 2: 0.522
+x 4.080y 0.000z 30.967
+vertex 0: 26.207 vertex 1: 25.587vertex 2: 26.207
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.440 vertex 1: 0.522vertex 2: 0.440
+x 4.415y 0.000z 33.957
+vertex 0: 25.587 vertex 1: 24.908vertex 2: 24.908
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.522 vertex 1: 0.610vertex 2: 0.610
+x 4.415y 0.000z 33.957
+vertex 0: 25.587 vertex 1: 24.908vertex 2: 25.587
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.522 vertex 1: 0.610vertex 2: 0.522
+x 4.724y 0.000z 36.868
+vertex 0: 24.908 vertex 1: 24.171vertex 2: 24.171
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.610 vertex 1: 0.705vertex 2: 0.705
+x 4.724y 0.000z 36.868
+vertex 0: 24.908 vertex 1: 24.171vertex 2: 24.908
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.610 vertex 1: 0.705vertex 2: 0.610
+x 5.008y 0.000z 39.692
+vertex 0: 24.171 vertex 1: 23.377vertex 2: 23.377
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.705 vertex 1: 0.805vertex 2: 0.805
+x 5.008y 0.000z 39.692
+vertex 0: 24.171 vertex 1: 23.377vertex 2: 24.171
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.705 vertex 1: 0.805vertex 2: 0.705
+x 5.265y 0.000z 42.424
+vertex 0: 23.377 vertex 1: 22.529vertex 2: 22.529
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.805 vertex 1: 0.910vertex 2: 0.910
+x 5.265y 0.000z 42.424
+vertex 0: 23.377 vertex 1: 22.529vertex 2: 23.377
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.805 vertex 1: 0.910vertex 2: 0.805
+x 5.495y 0.000z 45.057
+vertex 0: 22.529 vertex 1: 21.627vertex 2: 21.627
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.910 vertex 1: 1.020vertex 2: 1.020
+x 5.495y 0.000z 45.057
+vertex 0: 22.529 vertex 1: 21.627vertex 2: 22.529
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.910 vertex 1: 1.020vertex 2: 0.910
+x 5.696y 0.000z 47.585
+vertex 0: 21.627 vertex 1: 20.676vertex 2: 20.676
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.020 vertex 1: 1.134vertex 2: 1.134
+x 5.696y 0.000z 47.585
+vertex 0: 21.627 vertex 1: 20.676vertex 2: 21.627
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.020 vertex 1: 1.134vertex 2: 1.020
+x 5.869y 0.000z 50.001
+vertex 0: 20.676 vertex 1: 19.676vertex 2: 19.676
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.134 vertex 1: 1.251vertex 2: 1.251
+x 5.869y 0.000z 50.001
+vertex 0: 20.676 vertex 1: 19.676vertex 2: 20.676
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.134 vertex 1: 1.251vertex 2: 1.134
+x 6.013y 0.000z 52.301
+vertex 0: 19.676 vertex 1: 18.630vertex 2: 18.630
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.251 vertex 1: 1.371vertex 2: 1.371
+x 6.013y 0.000z 52.301
+vertex 0: 19.676 vertex 1: 18.630vertex 2: 19.676
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.251 vertex 1: 1.371vertex 2: 1.251
+x 6.129y 0.000z 54.478
+vertex 0: 18.630 vertex 1: 17.540vertex 2: 17.540
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.371 vertex 1: 1.494vertex 2: 1.494
+x 6.129y 0.000z 54.478
+vertex 0: 18.630 vertex 1: 17.540vertex 2: 18.630
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.371 vertex 1: 1.494vertex 2: 1.371
+x 6.214y 0.000z 56.528
+vertex 0: 17.540 vertex 1: 16.410vertex 2: 16.410
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.494 vertex 1: 1.618vertex 2: 1.618
+x 6.214y 0.000z 56.528
+vertex 0: 17.540 vertex 1: 16.410vertex 2: 17.540
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.494 vertex 1: 1.618vertex 2: 1.494
+x 6.271y 0.000z 58.447
+vertex 0: 16.410 vertex 1: 15.241vertex 2: 15.241
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.618 vertex 1: 1.744vertex 2: 1.744
+x 6.271y 0.000z 58.447
+vertex 0: 16.410 vertex 1: 15.241vertex 2: 16.410
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.618 vertex 1: 1.744vertex 2: 1.618
+x 6.298y 0.000z 60.229
+vertex 0: 15.241 vertex 1: 14.036vertex 2: 14.036
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.744 vertex 1: 1.870vertex 2: 1.870
+x 6.298y 0.000z 60.229
+vertex 0: 15.241 vertex 1: 14.036vertex 2: 15.241
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.744 vertex 1: 1.870vertex 2: 1.744
+x 6.293y 0.000z 61.869
+vertex 0: 14.036 vertex 1: 12.799vertex 2: 12.799
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.870 vertex 1: 1.996vertex 2: 1.996
+x 6.293y 0.000z 61.869
+vertex 0: 14.036 vertex 1: 12.799vertex 2: 14.036
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.870 vertex 1: 1.996vertex 2: 1.870
+x 6.258y 0.000z 63.366
+vertex 0: 12.799 vertex 1: 11.531vertex 2: 11.531
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.996 vertex 1: 2.121vertex 2: 2.121
+x 6.258y 0.000z 63.366
+vertex 0: 12.799 vertex 1: 11.531vertex 2: 12.799
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.996 vertex 1: 2.121vertex 2: 1.996
+x 6.191y 0.000z 64.715
+vertex 0: 11.531 vertex 1: 10.237vertex 2: 10.237
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.121 vertex 1: 2.245vertex 2: 2.245
+x 6.191y 0.000z 64.715
+vertex 0: 11.531 vertex 1: 10.237vertex 2: 11.531
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.121 vertex 1: 2.245vertex 2: 2.121
+x 6.091y 0.000z 65.912
+vertex 0: 10.237 vertex 1: 8.919vertex 2: 8.919
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.245 vertex 1: 2.366vertex 2: 2.366
+x 6.091y 0.000z 65.912
+vertex 0: 10.237 vertex 1: 8.919vertex 2: 10.237
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.245 vertex 1: 2.366vertex 2: 2.245
+x 5.958y 0.000z 66.956
+vertex 0: 8.919 vertex 1: 7.580vertex 2: 7.580
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.366 vertex 1: 2.486vertex 2: 2.486
+x 5.958y 0.000z 66.956
+vertex 0: 8.919 vertex 1: 7.580vertex 2: 8.919
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.366 vertex 1: 2.486vertex 2: 2.366
+x 5.790y 0.000z 67.843
+vertex 0: 7.580 vertex 1: 6.223vertex 2: 6.223
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.486 vertex 1: 2.601vertex 2: 2.601
+x 5.790y 0.000z 67.843
+vertex 0: 7.580 vertex 1: 6.223vertex 2: 7.580
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.486 vertex 1: 2.601vertex 2: 2.486
+x 5.587y 0.000z 68.571
+vertex 0: 6.223 vertex 1: 4.851vertex 2: 4.851
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.601 vertex 1: 2.713vertex 2: 2.713
+x 5.587y 0.000z 68.571
+vertex 0: 6.223 vertex 1: 4.851vertex 2: 6.223
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.601 vertex 1: 2.713vertex 2: 2.601
+x 5.348y 0.000z 69.140
+vertex 0: 4.851 vertex 1: 3.469vertex 2: 3.469
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.713 vertex 1: 2.820vertex 2: 2.820
+x 5.348y 0.000z 69.140
+vertex 0: 4.851 vertex 1: 3.469vertex 2: 4.851
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.713 vertex 1: 2.820vertex 2: 2.713
+x 5.073y 0.000z 69.547
+vertex 0: 3.469 vertex 1: 2.078vertex 2: 2.078
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.820 vertex 1: 2.921vertex 2: 2.921
+x 5.073y 0.000z 69.547
+vertex 0: 3.469 vertex 1: 2.078vertex 2: 3.469
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.820 vertex 1: 2.921vertex 2: 2.820
+x 4.759y 0.000z 69.791
+vertex 0: 2.078 vertex 1: 0.682vertex 2: 0.682
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.921 vertex 1: 3.017vertex 2: 3.017
+x 4.759y 0.000z 69.791
+vertex 0: 2.078 vertex 1: 0.682vertex 2: 2.078
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.921 vertex 1: 3.017vertex 2: 2.921
+x 4.409y 0.000z 69.873
+vertex 0: 0.682 vertex 1: -0.716vertex 2: -0.716
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.017 vertex 1: 3.105vertex 2: 3.105
+x 4.409y 0.000z 69.873
+vertex 0: 0.682 vertex 1: -0.716vertex 2: 0.682
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.017 vertex 1: 3.105vertex 2: 3.017
+x 4.020y 0.000z 69.791
+vertex 0: -0.716 vertex 1: -2.111vertex 2: -2.111
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.105 vertex 1: 3.185vertex 2: 3.185
+x 4.020y 0.000z 69.791
+vertex 0: -0.716 vertex 1: -2.111vertex 2: -0.716
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.105 vertex 1: 3.185vertex 2: 3.105
+x 3.595y 0.000z 69.547
+vertex 0: -2.111 vertex 1: -3.502vertex 2: -3.502
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.185 vertex 1: 3.257vertex 2: 3.257
+x 3.595y 0.000z 69.547
+vertex 0: -2.111 vertex 1: -3.502vertex 2: -2.111
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.185 vertex 1: 3.257vertex 2: 3.185
+x 3.133y 0.000z 69.140
+vertex 0: -3.502 vertex 1: -4.885vertex 2: -4.885
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.257 vertex 1: 3.320vertex 2: 3.320
+x 3.133y 0.000z 69.140
+vertex 0: -3.502 vertex 1: -4.885vertex 2: -3.502
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.257 vertex 1: 3.320vertex 2: 3.257
+x 2.635y 0.000z 68.571
+vertex 0: -4.885 vertex 1: -6.257vertex 2: -6.257
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.320 vertex 1: 3.373vertex 2: 3.373
+x 2.635y 0.000z 68.571
+vertex 0: -4.885 vertex 1: -6.257vertex 2: -4.885
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.320 vertex 1: 3.373vertex 2: 3.320
+x 2.103y 0.000z 67.843
+vertex 0: -6.257 vertex 1: -7.613vertex 2: -7.613
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.373 vertex 1: 3.415vertex 2: 3.415
+x 2.103y 0.000z 67.843
+vertex 0: -6.257 vertex 1: -7.613vertex 2: -6.257
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.373 vertex 1: 3.415vertex 2: 3.373
+x 1.541y 0.000z 66.956
+vertex 0: -7.613 vertex 1: -8.953vertex 2: -8.953
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.415 vertex 1: 3.445vertex 2: 3.445
+x 1.541y 0.000z 66.956
+vertex 0: -7.613 vertex 1: -8.953vertex 2: -7.613
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.415 vertex 1: 3.445vertex 2: 3.415
+x 0.949y 0.000z 65.912
+vertex 0: -8.953 vertex 1: -10.271vertex 2: -10.271
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.464vertex 2: 3.464
+x 0.949y 0.000z 65.912
+vertex 0: -8.953 vertex 1: -10.271vertex 2: -8.953
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.464vertex 2: 3.445
+x 0.331y 0.000z 64.715
+vertex 0: -10.271 vertex 1: -11.565vertex 2: -11.565
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.464 vertex 1: 3.471vertex 2: 3.471
+x 0.331y 0.000z 64.715
+vertex 0: -10.271 vertex 1: -11.565vertex 2: -10.271
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.464 vertex 1: 3.471vertex 2: 3.464
+x -0.309y 0.000z 63.366
+vertex 0: -11.565 vertex 1: -12.832vertex 2: -12.832
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.471 vertex 1: 3.465vertex 2: 3.465
+x -0.309y 0.000z 63.366
+vertex 0: -11.565 vertex 1: -12.832vertex 2: -11.565
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.471 vertex 1: 3.465vertex 2: 3.471
+x -0.968y 0.000z 61.869
+vertex 0: -12.832 vertex 1: -14.070vertex 2: -14.070
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.465 vertex 1: 3.445vertex 2: 3.445
+x -0.968y 0.000z 61.869
+vertex 0: -12.832 vertex 1: -14.070vertex 2: -12.832
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.465 vertex 1: 3.445vertex 2: 3.465
+x -1.641y 0.000z 60.228
+vertex 0: -14.070 vertex 1: -15.274vertex 2: -15.274
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.413vertex 2: 3.413
+x -1.641y 0.000z 60.228
+vertex 0: -14.070 vertex 1: -15.274vertex 2: -14.070
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.413vertex 2: 3.445
+x -2.323y 0.000z 58.447
+vertex 0: -15.274 vertex 1: -16.443vertex 2: -16.443
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.413 vertex 1: 3.366vertex 2: 3.366
+x -2.323y 0.000z 58.447
+vertex 0: -15.274 vertex 1: -16.443vertex 2: -15.274
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.413 vertex 1: 3.366vertex 2: 3.413
+x -3.010y 0.000z 56.529
+vertex 0: -16.443 vertex 1: -17.574vertex 2: -17.574
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.366 vertex 1: 3.306vertex 2: 3.306
+x -3.010y 0.000z 56.529
+vertex 0: -16.443 vertex 1: -17.574vertex 2: -16.443
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.366 vertex 1: 3.306vertex 2: 3.366
+x -3.697y 0.000z 54.478
+vertex 0: -17.574 vertex 1: -18.663vertex 2: -18.663
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.306 vertex 1: 3.232vertex 2: 3.232
+x -3.697y 0.000z 54.478
+vertex 0: -17.574 vertex 1: -18.663vertex 2: -17.574
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.306 vertex 1: 3.232vertex 2: 3.306
+x -4.378y 0.000z 52.301
+vertex 0: -18.663 vertex 1: -19.709vertex 2: -19.709
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.232 vertex 1: 3.144vertex 2: 3.144
+x -4.378y 0.000z 52.301
+vertex 0: -18.663 vertex 1: -19.709vertex 2: -18.663
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.232 vertex 1: 3.144vertex 2: 3.232
+x -5.050y 0.000z 50.001
+vertex 0: -19.709 vertex 1: -20.709vertex 2: -20.709
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.144 vertex 1: 3.043vertex 2: 3.043
+x -5.050y 0.000z 50.001
+vertex 0: -19.709 vertex 1: -20.709vertex 2: -19.709
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.144 vertex 1: 3.043vertex 2: 3.144
+x -5.708y 0.000z 47.585
+vertex 0: -20.709 vertex 1: -21.661vertex 2: -21.661
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.043 vertex 1: 2.929vertex 2: 2.929
+x -5.708y 0.000z 47.585
+vertex 0: -20.709 vertex 1: -21.661vertex 2: -20.709
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.043 vertex 1: 2.929vertex 2: 3.043
+x -6.346y 0.000z 45.057
+vertex 0: -21.661 vertex 1: -22.562vertex 2: -22.562
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.929 vertex 1: 2.802vertex 2: 2.802
+x -6.346y 0.000z 45.057
+vertex 0: -21.661 vertex 1: -22.562vertex 2: -21.661
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.929 vertex 1: 2.802vertex 2: 2.929
+x -6.963y 0.000z 42.424
+vertex 0: -22.562 vertex 1: -23.411vertex 2: -23.411
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.802 vertex 1: 2.663vertex 2: 2.663
+x -6.963y 0.000z 42.424
+vertex 0: -22.562 vertex 1: -23.411vertex 2: -22.562
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.802 vertex 1: 2.663vertex 2: 2.802
+x -7.552y 0.000z 39.692
+vertex 0: -23.411 vertex 1: -24.205vertex 2: -24.205
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.663 vertex 1: 2.512vertex 2: 2.512
+x -7.552y 0.000z 39.692
+vertex 0: -23.411 vertex 1: -24.205vertex 2: -23.411
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.663 vertex 1: 2.512vertex 2: 2.663
+x -8.114y 0.000z 36.868
+vertex 0: -24.205 vertex 1: -24.942vertex 2: -24.942
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.512 vertex 1: 2.350vertex 2: 2.350
+x -8.114y 0.000z 36.868
+vertex 0: -24.205 vertex 1: -24.942vertex 2: -24.205
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.512 vertex 1: 2.350vertex 2: 2.512
+x -8.645y 0.000z 33.957
+vertex 0: -24.942 vertex 1: -25.621vertex 2: -25.621
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.350 vertex 1: 2.177vertex 2: 2.177
+x -8.645y 0.000z 33.957
+vertex 0: -24.942 vertex 1: -25.621vertex 2: -24.942
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.350 vertex 1: 2.177vertex 2: 2.350
+x -9.144y 0.000z 30.967
+vertex 0: -25.621 vertex 1: -26.241vertex 2: -26.241
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.177 vertex 1: 1.994vertex 2: 1.994
+x -9.144y 0.000z 30.967
+vertex 0: -25.621 vertex 1: -26.241vertex 2: -25.621
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.177 vertex 1: 1.994vertex 2: 2.177
+x -9.610y 0.000z 27.905
+vertex 0: -26.241 vertex 1: -26.799vertex 2: -26.799
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.994 vertex 1: 1.802vertex 2: 1.802
+x -9.610y 0.000z 27.905
+vertex 0: -26.241 vertex 1: -26.799vertex 2: -26.241
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.994 vertex 1: 1.802vertex 2: 1.994
+x -10.043y 0.000z 24.777
+vertex 0: -26.799 vertex 1: -27.294vertex 2: -27.294
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.802 vertex 1: 1.601vertex 2: 1.601
+x -10.043y 0.000z 24.777
+vertex 0: -26.799 vertex 1: -27.294vertex 2: -26.799
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.802 vertex 1: 1.601vertex 2: 1.802
+x -10.445y 0.000z 21.592
+vertex 0: -27.294 vertex 1: -27.726vertex 2: -27.726
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.601 vertex 1: 1.392vertex 2: 1.392
+x -10.445y 0.000z 21.592
+vertex 0: -27.294 vertex 1: -27.726vertex 2: -27.294
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.601 vertex 1: 1.392vertex 2: 1.601
+x -10.817y 0.000z 18.356
+vertex 0: -27.726 vertex 1: -28.093vertex 2: -28.093
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.392 vertex 1: 1.176vertex 2: 1.176
+x -10.817y 0.000z 18.356
+vertex 0: -27.726 vertex 1: -28.093vertex 2: -27.726
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.392 vertex 1: 1.176vertex 2: 1.392
+x -11.160y 0.000z 15.078
+vertex 0: -28.093 vertex 1: -28.395vertex 2: -28.395
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.176 vertex 1: 0.953vertex 2: 0.953
+x -11.160y 0.000z 15.078
+vertex 0: -28.093 vertex 1: -28.395vertex 2: -28.093
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.176 vertex 1: 0.953vertex 2: 1.176
+x -11.478y 0.000z 11.764
+vertex 0: -28.395 vertex 1: -28.630vertex 2: -28.630
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.953 vertex 1: 0.723vertex 2: 0.723
+x -11.478y 0.000z 11.764
+vertex 0: -28.395 vertex 1: -28.630vertex 2: -28.395
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.953 vertex 1: 0.723vertex 2: 0.953
 x -10.000y 0.000z 50.000
 vertex 0: -25.000 vertex 1: 25.000vertex 2: -25.000
 vertex 0: -0.500 vertex 1: -0.500vertex 2: 0.500
@@ -174,3 +1038,483 @@ x -10.000y 0.000z 50.000
 vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
 vertex 0: -0.500 vertex 1: 0.500vertex 2: 0.500
 vertex 0: 20.000 vertex 1: 20.000vertex 2: 10.000
+x -10.000y 0.000z 50.000
+vertex 0: -25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: -0.500 vertex 1: -0.500vertex 2: 0.500
+vertex 0: 10.000 vertex 1: 20.000vertex 2: 10.000
+x -10.000y 0.000z 50.000
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: -0.500 vertex 1: 0.500vertex 2: 0.500
+vertex 0: 20.000 vertex 1: 20.000vertex 2: 10.000
+x -10.000y 0.000z 50.000
+vertex 0: -25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: -0.500 vertex 1: -0.500vertex 2: 0.500
+vertex 0: 10.000 vertex 1: 20.000vertex 2: 10.000
+x -10.000y 0.000z 50.000
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: -0.500 vertex 1: 0.500vertex 2: 0.500
+vertex 0: 20.000 vertex 1: 20.000vertex 2: 10.000
+x 0.709y 0.000z 5.061
+vertex 0: 28.866 vertex 1: 28.765vertex 2: 28.765
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.078 vertex 1: 0.092vertex 2: 0.092
+x 0.709y 0.000z 5.061
+vertex 0: 28.866 vertex 1: 28.765vertex 2: 28.866
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.078 vertex 1: 0.092vertex 2: 0.078
+x 1.176y 0.000z 8.422
+vertex 0: 28.765 vertex 1: 28.596vertex 2: 28.596
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.092 vertex 1: 0.115vertex 2: 0.115
+x 1.176y 0.000z 8.422
+vertex 0: 28.765 vertex 1: 28.596vertex 2: 28.765
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.092 vertex 1: 0.115vertex 2: 0.092
+x 1.636y 0.000z 11.764
+vertex 0: 28.596 vertex 1: 28.361vertex 2: 28.361
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.115 vertex 1: 0.148vertex 2: 0.148
+x 1.636y 0.000z 11.764
+vertex 0: 28.596 vertex 1: 28.361vertex 2: 28.596
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.115 vertex 1: 0.148vertex 2: 0.115
+x 2.085y 0.000z 15.077
+vertex 0: 28.361 vertex 1: 28.059vertex 2: 28.059
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.148 vertex 1: 0.190vertex 2: 0.190
+x 2.085y 0.000z 15.077
+vertex 0: 28.361 vertex 1: 28.059vertex 2: 28.361
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.148 vertex 1: 0.190vertex 2: 0.148
+x 2.520y 0.000z 18.356
+vertex 0: 28.059 vertex 1: 27.692vertex 2: 27.692
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.190 vertex 1: 0.240vertex 2: 0.240
+x 2.520y 0.000z 18.356
+vertex 0: 28.059 vertex 1: 27.692vertex 2: 28.059
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.190 vertex 1: 0.240vertex 2: 0.190
+x 2.940y 0.000z 21.592
+vertex 0: 27.692 vertex 1: 27.260vertex 2: 27.260
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.240 vertex 1: 0.299vertex 2: 0.299
+x 2.940y 0.000z 21.592
+vertex 0: 27.692 vertex 1: 27.260vertex 2: 27.692
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.240 vertex 1: 0.299vertex 2: 0.240
+x 3.341y 0.000z 24.777
+vertex 0: 27.260 vertex 1: 26.765vertex 2: 26.765
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.299 vertex 1: 0.366vertex 2: 0.366
+x 3.341y 0.000z 24.777
+vertex 0: 27.260 vertex 1: 26.765vertex 2: 27.260
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.299 vertex 1: 0.366vertex 2: 0.299
+x 3.722y 0.000z 27.905
+vertex 0: 26.765 vertex 1: 26.207vertex 2: 26.207
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.366 vertex 1: 0.440vertex 2: 0.440
+x 3.722y 0.000z 27.905
+vertex 0: 26.765 vertex 1: 26.207vertex 2: 26.765
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.366 vertex 1: 0.440vertex 2: 0.366
+x 4.080y 0.000z 30.967
+vertex 0: 26.207 vertex 1: 25.587vertex 2: 25.587
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.440 vertex 1: 0.522vertex 2: 0.522
+x 4.080y 0.000z 30.967
+vertex 0: 26.207 vertex 1: 25.587vertex 2: 26.207
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.440 vertex 1: 0.522vertex 2: 0.440
+x 4.415y 0.000z 33.957
+vertex 0: 25.587 vertex 1: 24.908vertex 2: 24.908
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.522 vertex 1: 0.610vertex 2: 0.610
+x 4.415y 0.000z 33.957
+vertex 0: 25.587 vertex 1: 24.908vertex 2: 25.587
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.522 vertex 1: 0.610vertex 2: 0.522
+x 4.724y 0.000z 36.868
+vertex 0: 24.908 vertex 1: 24.171vertex 2: 24.171
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.610 vertex 1: 0.705vertex 2: 0.705
+x 4.724y 0.000z 36.868
+vertex 0: 24.908 vertex 1: 24.171vertex 2: 24.908
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.610 vertex 1: 0.705vertex 2: 0.610
+x 5.008y 0.000z 39.692
+vertex 0: 24.171 vertex 1: 23.377vertex 2: 23.377
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.705 vertex 1: 0.805vertex 2: 0.805
+x 5.008y 0.000z 39.692
+vertex 0: 24.171 vertex 1: 23.377vertex 2: 24.171
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.705 vertex 1: 0.805vertex 2: 0.705
+x 5.265y 0.000z 42.424
+vertex 0: 23.377 vertex 1: 22.529vertex 2: 22.529
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.805 vertex 1: 0.910vertex 2: 0.910
+x 5.265y 0.000z 42.424
+vertex 0: 23.377 vertex 1: 22.529vertex 2: 23.377
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.805 vertex 1: 0.910vertex 2: 0.805
+x 5.495y 0.000z 45.057
+vertex 0: 22.529 vertex 1: 21.627vertex 2: 21.627
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 0.910 vertex 1: 1.020vertex 2: 1.020
+x 5.495y 0.000z 45.057
+vertex 0: 22.529 vertex 1: 21.627vertex 2: 22.529
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 0.910 vertex 1: 1.020vertex 2: 0.910
+x 5.696y 0.000z 47.585
+vertex 0: 21.627 vertex 1: 20.676vertex 2: 20.676
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.020 vertex 1: 1.134vertex 2: 1.134
+x 5.696y 0.000z 47.585
+vertex 0: 21.627 vertex 1: 20.676vertex 2: 21.627
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.020 vertex 1: 1.134vertex 2: 1.020
+x 5.869y 0.000z 50.001
+vertex 0: 20.676 vertex 1: 19.676vertex 2: 19.676
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.134 vertex 1: 1.251vertex 2: 1.251
+x 5.869y 0.000z 50.001
+vertex 0: 20.676 vertex 1: 19.676vertex 2: 20.676
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.134 vertex 1: 1.251vertex 2: 1.134
+x 6.013y 0.000z 52.301
+vertex 0: 19.676 vertex 1: 18.630vertex 2: 18.630
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.251 vertex 1: 1.371vertex 2: 1.371
+x 6.013y 0.000z 52.301
+vertex 0: 19.676 vertex 1: 18.630vertex 2: 19.676
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.251 vertex 1: 1.371vertex 2: 1.251
+x 6.129y 0.000z 54.478
+vertex 0: 18.630 vertex 1: 17.540vertex 2: 17.540
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.371 vertex 1: 1.494vertex 2: 1.494
+x 6.129y 0.000z 54.478
+vertex 0: 18.630 vertex 1: 17.540vertex 2: 18.630
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.371 vertex 1: 1.494vertex 2: 1.371
+x 6.214y 0.000z 56.528
+vertex 0: 17.540 vertex 1: 16.410vertex 2: 16.410
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.494 vertex 1: 1.618vertex 2: 1.618
+x 6.214y 0.000z 56.528
+vertex 0: 17.540 vertex 1: 16.410vertex 2: 17.540
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.494 vertex 1: 1.618vertex 2: 1.494
+x 6.271y 0.000z 58.447
+vertex 0: 16.410 vertex 1: 15.241vertex 2: 15.241
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.618 vertex 1: 1.744vertex 2: 1.744
+x 6.271y 0.000z 58.447
+vertex 0: 16.410 vertex 1: 15.241vertex 2: 16.410
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.618 vertex 1: 1.744vertex 2: 1.618
+x 6.298y 0.000z 60.229
+vertex 0: 15.241 vertex 1: 14.036vertex 2: 14.036
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.744 vertex 1: 1.870vertex 2: 1.870
+x 6.298y 0.000z 60.229
+vertex 0: 15.241 vertex 1: 14.036vertex 2: 15.241
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.744 vertex 1: 1.870vertex 2: 1.744
+x 6.293y 0.000z 61.869
+vertex 0: 14.036 vertex 1: 12.799vertex 2: 12.799
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.870 vertex 1: 1.996vertex 2: 1.996
+x 6.293y 0.000z 61.869
+vertex 0: 14.036 vertex 1: 12.799vertex 2: 14.036
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.870 vertex 1: 1.996vertex 2: 1.870
+x 6.258y 0.000z 63.366
+vertex 0: 12.799 vertex 1: 11.531vertex 2: 11.531
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.996 vertex 1: 2.121vertex 2: 2.121
+x 6.258y 0.000z 63.366
+vertex 0: 12.799 vertex 1: 11.531vertex 2: 12.799
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.996 vertex 1: 2.121vertex 2: 1.996
+x 6.191y 0.000z 64.715
+vertex 0: 11.531 vertex 1: 10.237vertex 2: 10.237
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.121 vertex 1: 2.245vertex 2: 2.245
+x 6.191y 0.000z 64.715
+vertex 0: 11.531 vertex 1: 10.237vertex 2: 11.531
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.121 vertex 1: 2.245vertex 2: 2.121
+x 6.091y 0.000z 65.912
+vertex 0: 10.237 vertex 1: 8.919vertex 2: 8.919
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.245 vertex 1: 2.366vertex 2: 2.366
+x 6.091y 0.000z 65.912
+vertex 0: 10.237 vertex 1: 8.919vertex 2: 10.237
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.245 vertex 1: 2.366vertex 2: 2.245
+x 5.958y 0.000z 66.956
+vertex 0: 8.919 vertex 1: 7.580vertex 2: 7.580
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.366 vertex 1: 2.486vertex 2: 2.486
+x 5.958y 0.000z 66.956
+vertex 0: 8.919 vertex 1: 7.580vertex 2: 8.919
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.366 vertex 1: 2.486vertex 2: 2.366
+x 5.790y 0.000z 67.843
+vertex 0: 7.580 vertex 1: 6.223vertex 2: 6.223
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.486 vertex 1: 2.601vertex 2: 2.601
+x 5.790y 0.000z 67.843
+vertex 0: 7.580 vertex 1: 6.223vertex 2: 7.580
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.486 vertex 1: 2.601vertex 2: 2.486
+x 5.587y 0.000z 68.571
+vertex 0: 6.223 vertex 1: 4.851vertex 2: 4.851
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.601 vertex 1: 2.713vertex 2: 2.713
+x 5.587y 0.000z 68.571
+vertex 0: 6.223 vertex 1: 4.851vertex 2: 6.223
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.601 vertex 1: 2.713vertex 2: 2.601
+x 5.348y 0.000z 69.140
+vertex 0: 4.851 vertex 1: 3.469vertex 2: 3.469
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.713 vertex 1: 2.820vertex 2: 2.820
+x 5.348y 0.000z 69.140
+vertex 0: 4.851 vertex 1: 3.469vertex 2: 4.851
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.713 vertex 1: 2.820vertex 2: 2.713
+x 5.073y 0.000z 69.547
+vertex 0: 3.469 vertex 1: 2.078vertex 2: 2.078
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.820 vertex 1: 2.921vertex 2: 2.921
+x 5.073y 0.000z 69.547
+vertex 0: 3.469 vertex 1: 2.078vertex 2: 3.469
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.820 vertex 1: 2.921vertex 2: 2.820
+x 4.759y 0.000z 69.791
+vertex 0: 2.078 vertex 1: 0.682vertex 2: 0.682
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.921 vertex 1: 3.017vertex 2: 3.017
+x 4.759y 0.000z 69.791
+vertex 0: 2.078 vertex 1: 0.682vertex 2: 2.078
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.921 vertex 1: 3.017vertex 2: 2.921
+x 4.409y 0.000z 69.873
+vertex 0: 0.682 vertex 1: -0.716vertex 2: -0.716
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.017 vertex 1: 3.105vertex 2: 3.105
+x 4.409y 0.000z 69.873
+vertex 0: 0.682 vertex 1: -0.716vertex 2: 0.682
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.017 vertex 1: 3.105vertex 2: 3.017
+x 4.020y 0.000z 69.791
+vertex 0: -0.716 vertex 1: -2.111vertex 2: -2.111
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.105 vertex 1: 3.185vertex 2: 3.185
+x 4.020y 0.000z 69.791
+vertex 0: -0.716 vertex 1: -2.111vertex 2: -0.716
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.105 vertex 1: 3.185vertex 2: 3.105
+x 3.595y 0.000z 69.547
+vertex 0: -2.111 vertex 1: -3.502vertex 2: -3.502
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.185 vertex 1: 3.257vertex 2: 3.257
+x 3.595y 0.000z 69.547
+vertex 0: -2.111 vertex 1: -3.502vertex 2: -2.111
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.185 vertex 1: 3.257vertex 2: 3.185
+x 3.133y 0.000z 69.140
+vertex 0: -3.502 vertex 1: -4.885vertex 2: -4.885
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.257 vertex 1: 3.320vertex 2: 3.320
+x 3.133y 0.000z 69.140
+vertex 0: -3.502 vertex 1: -4.885vertex 2: -3.502
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.257 vertex 1: 3.320vertex 2: 3.257
+x 2.635y 0.000z 68.571
+vertex 0: -4.885 vertex 1: -6.257vertex 2: -6.257
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.320 vertex 1: 3.373vertex 2: 3.373
+x 2.635y 0.000z 68.571
+vertex 0: -4.885 vertex 1: -6.257vertex 2: -4.885
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.320 vertex 1: 3.373vertex 2: 3.320
+x 2.103y 0.000z 67.843
+vertex 0: -6.257 vertex 1: -7.613vertex 2: -7.613
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.373 vertex 1: 3.415vertex 2: 3.415
+x 2.103y 0.000z 67.843
+vertex 0: -6.257 vertex 1: -7.613vertex 2: -6.257
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.373 vertex 1: 3.415vertex 2: 3.373
+x 1.541y 0.000z 66.956
+vertex 0: -7.613 vertex 1: -8.953vertex 2: -8.953
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.415 vertex 1: 3.445vertex 2: 3.445
+x 1.541y 0.000z 66.956
+vertex 0: -7.613 vertex 1: -8.953vertex 2: -7.613
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.415 vertex 1: 3.445vertex 2: 3.415
+x 0.949y 0.000z 65.912
+vertex 0: -8.953 vertex 1: -10.271vertex 2: -10.271
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.464vertex 2: 3.464
+x 0.949y 0.000z 65.912
+vertex 0: -8.953 vertex 1: -10.271vertex 2: -8.953
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.464vertex 2: 3.445
+x 0.331y 0.000z 64.715
+vertex 0: -10.271 vertex 1: -11.565vertex 2: -11.565
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.464 vertex 1: 3.471vertex 2: 3.471
+x 0.331y 0.000z 64.715
+vertex 0: -10.271 vertex 1: -11.565vertex 2: -10.271
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.464 vertex 1: 3.471vertex 2: 3.464
+x -0.309y 0.000z 63.366
+vertex 0: -11.565 vertex 1: -12.832vertex 2: -12.832
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.471 vertex 1: 3.465vertex 2: 3.465
+x -0.309y 0.000z 63.366
+vertex 0: -11.565 vertex 1: -12.832vertex 2: -11.565
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.471 vertex 1: 3.465vertex 2: 3.471
+x -0.968y 0.000z 61.869
+vertex 0: -12.832 vertex 1: -14.070vertex 2: -14.070
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.465 vertex 1: 3.445vertex 2: 3.445
+x -0.968y 0.000z 61.869
+vertex 0: -12.832 vertex 1: -14.070vertex 2: -12.832
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.465 vertex 1: 3.445vertex 2: 3.465
+x -1.641y 0.000z 60.228
+vertex 0: -14.070 vertex 1: -15.274vertex 2: -15.274
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.413vertex 2: 3.413
+x -1.641y 0.000z 60.228
+vertex 0: -14.070 vertex 1: -15.274vertex 2: -14.070
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.445 vertex 1: 3.413vertex 2: 3.445
+x -2.323y 0.000z 58.447
+vertex 0: -15.274 vertex 1: -16.443vertex 2: -16.443
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.413 vertex 1: 3.366vertex 2: 3.366
+x -2.323y 0.000z 58.447
+vertex 0: -15.274 vertex 1: -16.443vertex 2: -15.274
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.413 vertex 1: 3.366vertex 2: 3.413
+x -3.010y 0.000z 56.529
+vertex 0: -16.443 vertex 1: -17.574vertex 2: -17.574
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.366 vertex 1: 3.306vertex 2: 3.306
+x -3.010y 0.000z 56.529
+vertex 0: -16.443 vertex 1: -17.574vertex 2: -16.443
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.366 vertex 1: 3.306vertex 2: 3.366
+x -3.697y 0.000z 54.478
+vertex 0: -17.574 vertex 1: -18.663vertex 2: -18.663
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.306 vertex 1: 3.232vertex 2: 3.232
+x -3.697y 0.000z 54.478
+vertex 0: -17.574 vertex 1: -18.663vertex 2: -17.574
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.306 vertex 1: 3.232vertex 2: 3.306
+x -4.378y 0.000z 52.301
+vertex 0: -18.663 vertex 1: -19.709vertex 2: -19.709
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.232 vertex 1: 3.144vertex 2: 3.144
+x -4.378y 0.000z 52.301
+vertex 0: -18.663 vertex 1: -19.709vertex 2: -18.663
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.232 vertex 1: 3.144vertex 2: 3.232
+x -5.050y 0.000z 50.001
+vertex 0: -19.709 vertex 1: -20.709vertex 2: -20.709
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.144 vertex 1: 3.043vertex 2: 3.043
+x -5.050y 0.000z 50.001
+vertex 0: -19.709 vertex 1: -20.709vertex 2: -19.709
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.144 vertex 1: 3.043vertex 2: 3.144
+x -5.708y 0.000z 47.585
+vertex 0: -20.709 vertex 1: -21.661vertex 2: -21.661
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 3.043 vertex 1: 2.929vertex 2: 2.929
+x -5.708y 0.000z 47.585
+vertex 0: -20.709 vertex 1: -21.661vertex 2: -20.709
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 3.043 vertex 1: 2.929vertex 2: 3.043
+x -6.346y 0.000z 45.057
+vertex 0: -21.661 vertex 1: -22.562vertex 2: -22.562
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.929 vertex 1: 2.802vertex 2: 2.802
+x -6.346y 0.000z 45.057
+vertex 0: -21.661 vertex 1: -22.562vertex 2: -21.661
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.929 vertex 1: 2.802vertex 2: 2.929
+x -6.963y 0.000z 42.424
+vertex 0: -22.562 vertex 1: -23.411vertex 2: -23.411
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.802 vertex 1: 2.663vertex 2: 2.663
+x -6.963y 0.000z 42.424
+vertex 0: -22.562 vertex 1: -23.411vertex 2: -22.562
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.802 vertex 1: 2.663vertex 2: 2.802
+x -7.552y 0.000z 39.692
+vertex 0: -23.411 vertex 1: -24.205vertex 2: -24.205
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.663 vertex 1: 2.512vertex 2: 2.512
+x -7.552y 0.000z 39.692
+vertex 0: -23.411 vertex 1: -24.205vertex 2: -23.411
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.663 vertex 1: 2.512vertex 2: 2.663
+x -8.114y 0.000z 36.868
+vertex 0: -24.205 vertex 1: -24.942vertex 2: -24.942
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.512 vertex 1: 2.350vertex 2: 2.350
+x -8.114y 0.000z 36.868
+vertex 0: -24.205 vertex 1: -24.942vertex 2: -24.205
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.512 vertex 1: 2.350vertex 2: 2.512
+x -8.645y 0.000z 33.957
+vertex 0: -24.942 vertex 1: -25.621vertex 2: -25.621
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.350 vertex 1: 2.177vertex 2: 2.177
+x -8.645y 0.000z 33.957
+vertex 0: -24.942 vertex 1: -25.621vertex 2: -24.942
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.350 vertex 1: 2.177vertex 2: 2.350
+x -9.144y 0.000z 30.967
+vertex 0: -25.621 vertex 1: -26.241vertex 2: -26.241
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 2.177 vertex 1: 1.994vertex 2: 1.994
+x -9.144y 0.000z 30.967
+vertex 0: -25.621 vertex 1: -26.241vertex 2: -25.621
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 2.177 vertex 1: 1.994vertex 2: 2.177
+x -9.610y 0.000z 27.905
+vertex 0: -26.241 vertex 1: -26.799vertex 2: -26.799
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.994 vertex 1: 1.802vertex 2: 1.802
+x -9.610y 0.000z 27.905
+vertex 0: -26.241 vertex 1: -26.799vertex 2: -26.241
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.994 vertex 1: 1.802vertex 2: 1.994
+x -10.043y 0.000z 24.777
+vertex 0: -26.799 vertex 1: -27.294vertex 2: -27.294
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.802 vertex 1: 1.601vertex 2: 1.601
+x -10.043y 0.000z 24.777
+vertex 0: -26.799 vertex 1: -27.294vertex 2: -26.799
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.802 vertex 1: 1.601vertex 2: 1.802
+x -10.445y 0.000z 21.592
+vertex 0: -27.294 vertex 1: -27.726vertex 2: -27.726
+vertex 0: 25.000 vertex 1: 25.000vertex 2: -25.000
+vertex 0: 1.601 vertex 1: 1.392vertex 2: 1.392
+x -10.445y 0.000z 21.592
+vertex 0: -27.294 vertex 1: -27.726vertex 2: -27.294
+vertex 0: 25.000 vertex 1: -25.000vertex 2: -25.000
+vertex 0: 1.601 vertex 1: 1.392vertex 2: 1.601

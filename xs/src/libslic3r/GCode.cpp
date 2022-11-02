@@ -597,6 +597,7 @@ GCode::_extrude(ExtrusionPath path, std::string description, double speed)
             path_length += line_length;
             gcode += this->writer.extrude_to_xyz_theta(
                 this->point3_to_gcode(line->b),
+                line->angle()*-180/3.1415926,
                 e_per_mm * line_length * multiplicator,
                 comment
             );
